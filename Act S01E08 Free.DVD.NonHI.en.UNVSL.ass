@@ -1,0 +1,911 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: subtitles
+ScriptType: v4.00+
+Collisions: Normal
+PlayDepth: 0
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H0300FFFF,&H00000000,&H02000000,0,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.30,0:00:04.66,Default,,0,0,0,,{\an4\pos(205,350)\i1}Bạn đã tra cứu{\i0}
+Dialogue: 0,0:00:02.30,0:00:04.66,Default,,0,0,0,,{\an4\pos(204,386)\i1}trên bầu trời đêm nay?{\i0}
+Dialogue: 0,0:00:07.30,0:00:08.79,Default,,0,0,0,,{\an4\pos(213,387)}Và bạn đã nhìn thấy gì?
+Dialogue: 0,0:00:10.01,0:00:11.91,Default,,0,0,0,,{\an4\pos(170,387)}Lacey, chúng ta có thể làm bạn được không?
+Dialogue: 0,0:00:12.01,0:00:13.48,Default,,0,0,0,,{\an4\pos(168,386)\i1}Được thôi, chúng ta có thể.{\i0}
+Dialogue: 0,0:00:13.61,0:00:16.14,Default,,0,0,0,,{\an4\pos(97,351)}Mẹ tôi thường nói,
+Dialogue: 0,0:00:13.61,0:00:16.14,Default,,0,0,0,,{\an4\pos(95,387)}"Đôi khi cách duy nhất
+Dialogue: 0,0:00:16.28,0:00:17.80,Default,,0,0,0,,{\an4\pos(111,348)}"ra khỏi ngọn lửa
+Dialogue: 0,0:00:16.28,0:00:17.80,Default,,0,0,0,,{\an4\pos(112,387)}đã đi qua nó."
+Dialogue: 0,0:00:17.95,0:00:19.11,Default,,0,0,0,,{\an4\pos(333,384)}Điều đó có nghĩa là gì?
+Dialogue: 0,0:00:19.21,0:00:22.41,Default,,0,0,0,,{\an4\pos(142,351)}Ý cô ấy là bạn phải chịu đau khổ.
+Dialogue: 0,0:00:19.21,0:00:22.41,Default,,0,0,0,,{\an4\pos(141,384)}Bạn sẽ học được nhiều hơn từ nó.
+Dialogue: 0,0:00:22.52,0:00:23.49,Default,,0,0,0,,{\an4\pos(231,387)}Tệ thật.
+Dialogue: 0,0:00:23.62,0:00:25.18,Default,,0,0,0,,{\an4\pos(206,93)}Bạn đã cứu tôi.
+Dialogue: 0,0:00:23.62,0:00:25.18,Default,,0,0,0,,{\an4\pos(427,160)}Tôi đã cứu anh sao?
+Dialogue: 0,0:00:25.32,0:00:27.35,Default,,0,0,0,,{\an4\pos(120,384)}Bạn đã làm được. Bạn là một anh hùng.
+Dialogue: 0,0:00:27.49,0:00:28.65,Default,,0,0,0,,{\an5\pos(370,93)}Tôi là anh hùng sao?
+Dialogue: 0,0:00:29.86,0:00:31.02,Default,,0,0,0,,{\an4\pos(179,384)}Cút khỏi đó ngay!
+Dialogue: 0,0:00:31.16,0:00:33.86,Default,,0,0,0,,{\an4\pos(181,347)\i1}Chúng tôi đã xác định được{\i0}
+Dialogue: 0,0:00:31.16,0:00:33.86,Default,,0,0,0,,{\an4\pos(182,386)\i1}Gypsy Rose Blanchard.{\i0}
+Dialogue: 0,0:00:34.00,0:00:36.36,Default,,0,0,0,,{\an4\pos(237,350)\i1}Và tôi muốn nói rằng{\i0}
+Dialogue: 0,0:00:34.00,0:00:36.36,Default,,0,0,0,,{\an4\pos(238,386)\i1}mọi thứ không phải lúc nào cũng{\i0}
+Dialogue: 0,0:00:36.50,0:00:37.52,Default,,0,0,0,,{\an4\pos(260,386)\i1}như chúng xuất hiện.{\i0}
+Dialogue: 0,0:00:37.67,0:00:38.69,Default,,0,0,0,,{\an4\pos(211,384)}Cô ấy có thể đi được không?
+Dialogue: 0,0:00:39.33,0:00:40.50,Default,,0,0,0,,{\an4\pos(250,384)}Đồ khốn nạn.
+Dialogue: 0,0:01:16.67,0:01:18.87,Default,,0,0,0,,{\an4\pos(198,350)}Mẹ ơi,
+Dialogue: 0,0:01:16.67,0:01:18.87,Default,,0,0,0,,{\an4\pos(200,387)}Tôi sợ ma.
+Dialogue: 0,0:01:19.31,0:01:20.90,Default,,0,0,0,,{\an5\pos(369,96)}Tôi muốn về nhà.
+Dialogue: 0,0:01:22.61,0:01:23.77,Default,,0,0,0,,{\an4\pos(290,387)}Không sao đâu.
+Dialogue: 0,0:01:24.41,0:01:25.97,Default,,0,0,0,,{\an4\pos(225,387)}Không có ma.
+Dialogue: 0,0:01:33.19,0:01:34.16,Default,,0,0,0,,{\an4\pos(330,384)}Ừm.
+Dialogue: 0,0:01:34.29,0:01:36.88,Default,,0,0,0,,{\an4\pos(350,351)}Nhìn này, chỉ cần nhìn lên
+Dialogue: 0,0:01:34.29,0:01:36.88,Default,,0,0,0,,{\an4\pos(349,384)}tại các vì sao.
+Dialogue: 0,0:01:42.26,0:01:44.46,Default,,0,0,0,,{\an4\pos(222,387)}Các ngôi sao là thiên thần,
+Dialogue: 0,0:01:44.60,0:01:46.76,Default,,0,0,0,,{\an4\pos(188,387)}và các thiên thần bảo vệ chúng ta.
+Dialogue: 0,0:01:48.27,0:01:50.24,Default,,0,0,0,,{\an4\pos(317,387)}Còn em là thiên thần của anh.
+Dialogue: 0,0:01:51.31,0:01:52.64,Default,,0,0,0,,{\an4\pos(423,387)}Tôi bảo vệ bạn.
+Dialogue: 0,0:01:52.77,0:01:53.80,Default,,0,0,0,,{\an4\pos(330,384)}Ừm.
+Dialogue: 0,0:01:55.44,0:01:58.41,Default,,0,0,0,,{\an4\pos(352,387)}Và bạn bảo vệ tôi.
+Dialogue: 0,0:02:09.59,0:02:11.18,Default,,0,0,0,,{\an4\pos(208,387)}Đây là phiên tòa xét xử
+Dialogue: 0,0:02:11.29,0:02:12.92,Default,,0,0,0,,{\an4\pos(222,384)}trong các vấn đề liên quan
+Dialogue: 0,0:02:13.06,0:02:17.19,Default,,0,0,0,,{\an4\pos(187,348)}của Tiểu bang Missouri
+Dialogue: 0,0:02:13.06,0:02:17.19,Default,,0,0,0,,{\an4\pos(186,387)}vs. Gypsy Rose Blanchard
+Dialogue: 0,0:02:17.30,0:02:21.70,Default,,0,0,0,,{\an4\pos(208,348)}và Tiểu bang Missouri
+Dialogue: 0,0:02:17.30,0:02:21.70,Default,,0,0,0,,{\an4\pos(207,387)}vs. Nicholas Godejohn.
+Dialogue: 0,0:02:24.94,0:02:28.38,Default,,0,0,0,,{\an4\pos(194,351)}Ông Rippy, đó là gợi ý của ông
+Dialogue: 0,0:02:24.94,0:02:28.38,Default,,0,0,0,,{\an4\pos(191,387)}để đọc các điện tích.
+Dialogue: 0,0:02:28.48,0:02:30.21,Default,,0,0,0,,{\an4\pos(150,387)}Cảm ơn ngài.
+Dialogue: 0,0:02:30.31,0:02:34.25,Default,,0,0,0,,{\an4\pos(110,351)}Tiểu bang Missouri tuyên bố
+Dialogue: 0,0:02:30.31,0:02:34.25,Default,,0,0,0,,{\an4\pos(111,387)}tố cáo Gypsy Rose Blanchard
+Dialogue: 0,0:02:34.38,0:02:36.44,Default,,0,0,0,,{\an4\pos(117,351)}và Nicholas Godejohn
+Dialogue: 0,0:02:34.38,0:02:36.44,Default,,0,0,0,,{\an4\pos(116,387)}với tội giết người cấp độ một,
+Dialogue: 0,0:02:36.59,0:02:40.45,Default,,0,0,0,,{\an4\pos(129,387)}theo phần 565.020.
+Dialogue: 0,0:02:40.59,0:02:45.08,Default,,0,0,0,,{\an4\pos(112,386)}Vào hoặc giữa ngày 9 tháng 6 năm 2015
+Dialogue: 0,0:02:45.23,0:02:47.75,Default,,0,0,0,,{\an4\pos(92,386)}và ngày 14 tháng 6 năm 2015,
+Dialogue: 0,0:02:47.90,0:02:51.30,Default,,0,0,0,,{\an4\pos(165,351)}các bị cáo đã cố ý
+Dialogue: 0,0:02:47.90,0:02:51.30,Default,,0,0,0,,{\an4\pos(166,384)}và sau khi cân nhắc
+Dialogue: 0,0:02:51.43,0:02:53.73,Default,,0,0,0,,{\an4\pos(206,348)}gây ra cái chết
+Dialogue: 0,0:02:51.43,0:02:53.73,Default,,0,0,0,,{\an4\pos(206,384)}của Clauddine Blanchard
+Dialogue: 0,0:02:53.84,0:02:55.43,Default,,0,0,0,,{\an4\pos(258,387)}bằng cách đâm cô ấy,
+Dialogue: 0,0:02:55.57,0:02:57.94,Default,,0,0,0,,{\an4\pos(213,351)}có thể bị trừng phạt
+Dialogue: 0,0:02:55.57,0:02:57.94,Default,,0,0,0,,{\an4\pos(215,387)}bằng án tù chung thân...
+Dialogue: 0,0:02:59.61,0:03:00.77,Default,,0,0,0,,{\an4\pos(308,384)}hoặc cái chết.
+Dialogue: 0,0:03:04.98,0:03:08.31,Default,,0,0,0,,{\an4\pos(385,350)}Cô Blanchard,
+Dialogue: 0,0:03:04.98,0:03:08.31,Default,,0,0,0,,{\an4\pos(384,387)}bạn biện hộ thế nào?
+Dialogue: 0,0:03:23.57,0:03:24.97,Default,,0,0,0,,{\an4\pos(280,387)}Không có tội.
+Dialogue: 0,0:03:36.71,0:03:39.74,Default,,0,0,0,,{\an5\pos(370,95)\i1}Những người hàng xóm tỏ ra sốc{\i0}
+Dialogue: 0,0:03:36.71,0:03:39.74,Default,,0,0,0,,{\an4\pos(174,128)\i1}về vụ giết người{\i0}
+Dialogue: 0,0:03:39.88,0:03:41.68,Default,,0,0,0,,{\an5\pos(368,95)\i1}và nhiều năm lừa dối.{\i0}
+Dialogue: 0,0:03:41.78,0:03:44.08,Default,,0,0,0,,{\an4\pos(191,348)}Và các thám tử nói với chúng tôi
+Dialogue: 0,0:03:41.78,0:03:44.08,Default,,0,0,0,,{\an4\pos(190,387)}họ chưa bao giờ thấy một trường hợp nào
+Dialogue: 0,0:03:44.22,0:03:45.85,Default,,0,0,0,,{\an4\pos(272,387)}khá giống thế này.
+Dialogue: 0,0:03:45.95,0:03:49.02,Default,,0,0,0,,{\an5\pos(337,93)}Vẫn còn câu hỏi
+Dialogue: 0,0:03:45.95,0:03:49.02,Default,,0,0,0,,{\an5\pos(367,131)}về bản chất của tội phạm,
+Dialogue: 0,0:03:49.12,0:03:51.86,Default,,0,0,0,,{\an5\pos(352,96)}nhưng Gypsy Blanchard
+Dialogue: 0,0:03:49.12,0:03:51.86,Default,,0,0,0,,{\an5\pos(368,132)}và Nicholas Godejohn
+Dialogue: 0,0:03:51.96,0:03:54.36,Default,,0,0,0,,{\an4\pos(390,348)}cả hai đều sẽ đối mặt
+Dialogue: 0,0:03:51.96,0:03:54.36,Default,,0,0,0,,{\an4\pos(390,387)}hình phạt tử hình
+Dialogue: 0,0:03:54.46,0:03:56.66,Default,,0,0,0,,{\an4\pos(295,348)}nếu bị kết án
+Dialogue: 0,0:03:54.46,0:03:56.66,Default,,0,0,0,,{\an4\pos(294,387)}tội giết người cấp độ một.
+Dialogue: 0,0:04:02.94,0:04:04.10,Default,,0,0,0,,{\an4\pos(324,386)}Đừng sợ, em yêu.
+Dialogue: 0,0:04:04.81,0:04:06.67,Default,,0,0,0,,{\an4\pos(359,351)}Chúng tôi sẽ không bao giờ bỏ cuộc
+Dialogue: 0,0:04:04.81,0:04:06.67,Default,,0,0,0,,{\an4\pos(360,386)}trên nhau,
+Dialogue: 0,0:04:06.81,0:04:08.17,Default,,0,0,0,,{\an4\pos(317,387)}giống như Bonnie và Clyde.
+Dialogue: 0,0:04:08.88,0:04:11.11,Default,,0,0,0,,{\an4\pos(90,351)}C-chuyện gì đã xảy ra với Bonnie vậy
+Dialogue: 0,0:04:08.88,0:04:11.11,Default,,0,0,0,,{\an4\pos(91,387)}và Clyde ở cuối?
+Dialogue: 0,0:04:11.21,0:04:12.48,Default,,0,0,0,,{\an4\pos(335,384)}Chúng ta hãy di chuyển.
+Dialogue: 0,0:04:30.47,0:04:31.43,Default,,0,0,0,,{\an4\pos(333,384)}Một...
+Dialogue: 0,0:04:32.87,0:04:34.70,Default,,0,0,0,,{\an4\pos(131,351)}Họ thực sự sẽ không làm điều đó,
+Dialogue: 0,0:04:32.87,0:04:34.70,Default,,0,0,0,,{\an4\pos(131,387)}họ có làm vậy không?
+Dialogue: 0,0:04:35.20,0:04:36.26,Default,,0,0,0,,{\an4\pos(327,384)}Làm gì?
+Dialogue: 0,0:04:38.17,0:04:39.33,Default,,0,0,0,,{\an4\pos(126,384)}Bạn biết đấy...
+Dialogue: 0,0:04:40.08,0:04:42.04,Default,,0,0,0,,{\an4\pos(72,386)}Ừm, xử tử tôi đi.
+Dialogue: 0,0:04:44.88,0:04:46.18,Default,,0,0,0,,{\an4\pos(416,387)}Họ có thể.
+Dialogue: 0,0:04:47.05,0:04:49.14,Default,,0,0,0,,{\an4\pos(264,351)}Rất nhiều thứ phụ thuộc
+Dialogue: 0,0:04:47.05,0:04:49.14,Default,,0,0,0,,{\an4\pos(264,387)}về nhận thức của công chúng.
+Dialogue: 0,0:04:49.72,0:04:50.78,Default,,0,0,0,,{\an4\pos(235,387)}Nếu bạn trông giống một con quái vật,
+Dialogue: 0,0:04:50.89,0:04:52.22,Default,,0,0,0,,{\an4\pos(273,351)}họ có thể sẽ tìm kiếm
+Dialogue: 0,0:04:50.89,0:04:52.22,Default,,0,0,0,,{\an4\pos(273,387)}hình phạt tử hình.
+Dialogue: 0,0:04:52.85,0:04:55.12,Default,,0,0,0,,{\an4\pos(326,351)}Nhưng nếu bạn có thể xuất hiện
+Dialogue: 0,0:04:52.85,0:04:55.12,Default,,0,0,0,,{\an4\pos(325,387)}thông cảm,
+Dialogue: 0,0:04:55.22,0:04:56.99,Default,,0,0,0,,{\an4\pos(330,351)}họ sẽ có nhiều khả năng hơn
+Dialogue: 0,0:04:55.22,0:04:56.99,Default,,0,0,0,,{\an4\pos(330,387)}để dễ dãi với bạn.
+Dialogue: 0,0:04:57.09,0:04:59.69,Default,,0,0,0,,{\an4\pos(227,351)}Đó là một trong những điều
+Dialogue: 0,0:04:57.09,0:04:59.69,Default,,0,0,0,,{\an4\pos(230,387)}Tôi đang cố gắng giúp bạn.
+Dialogue: 0,0:05:00.53,0:05:01.55,Default,,0,0,0,,{\an4\pos(261,384)}Có rất nhiều bằng chứng
+Dialogue: 0,0:05:01.66,0:05:03.26,Default,,0,0,0,,{\an4\pos(215,351)}điều đó có vẻ không ổn
+Dialogue: 0,0:05:01.66,0:05:03.26,Default,,0,0,0,,{\an4\pos(215,387)}cho chúng tôi, Gypsy.
+Dialogue: 0,0:05:04.57,0:05:05.73,Default,,0,0,0,,{\an4\pos(281,384)}Nhân chứng...
+Dialogue: 0,0:05:07.10,0:05:09.47,Default,,0,0,0,,{\an4\pos(203,386)}tài xế xe buýt, tài xế taxi,
+Dialogue: 0,0:05:10.41,0:05:11.96,Default,,0,0,0,,{\an4\pos(258,386)}cô hầu bàn ở quán ăn,
+Dialogue: 0,0:05:12.11,0:05:15.13,Default,,0,0,0,,{\an4\pos(186,351)}người phụ nữ ở khách sạn,
+Dialogue: 0,0:05:12.11,0:05:15.13,Default,,0,0,0,,{\an4\pos(188,387)}cộng với tất cả các tin nhắn văn bản.
+Dialogue: 0,0:05:15.28,0:05:16.64,Default,,0,0,0,,{\an4\pos(371,384)}Tôi không giết cô ấy.
+Dialogue: 0,0:05:21.65,0:05:26.05,Default,,0,0,0,,{\an4\pos(170,351)}Được rồi, ừm, được rồi.
+Dialogue: 0,0:05:21.65,0:05:26.05,Default,,0,0,0,,{\an4\pos(171,387)}Để tôi hỏi bạn một câu nữa.
+Dialogue: 0,0:05:26.15,0:05:29.96,Default,,0,0,0,,{\an4\pos(195,351)}Chúng tôi biết rằng mẹ bạn đã ép buộc
+Dialogue: 0,0:05:26.15,0:05:29.96,Default,,0,0,0,,{\an4\pos(195,387)}bạn sử dụng xe lăn.
+Dialogue: 0,0:05:30.09,0:05:31.75,Default,,0,0,0,,{\an4\pos(262,348)}Nhưng chúng ta biết
+Dialogue: 0,0:05:30.09,0:05:31.75,Default,,0,0,0,,{\an4\pos(260,387)}mà bạn có thể đi bộ, đúng không?
+Dialogue: 0,0:05:31.86,0:05:34.06,Default,,0,0,0,,{\an4\pos(196,315)}Cô ấy sẽ không cho phép bạn
+Dialogue: 0,0:05:31.86,0:05:34.06,Default,,0,0,0,,{\an4\pos(195,351)}để nuôi sống bản thân,
+Dialogue: 0,0:05:31.86,0:05:34.06,Default,,0,0,0,,{\an4\pos(197,387)}nhưng chúng tôi biết bạn có thể ăn.
+Dialogue: 0,0:05:34.16,0:05:35.82,Default,,0,0,0,,{\an4\pos(227,351)}Bạn có nghĩ rằng có
+Dialogue: 0,0:05:34.16,0:05:35.82,Default,,0,0,0,,{\an4\pos(226,387)}bất kỳ điều gì khác
+Dialogue: 0,0:05:35.96,0:05:38.76,Default,,0,0,0,,{\an4\pos(201,351)}mẹ bạn có thể đã nói với bạn
+Dialogue: 0,0:05:35.96,0:05:38.76,Default,,0,0,0,,{\an4\pos(201,387)}điều đó sai à?
+Dialogue: 0,0:05:40.20,0:05:41.40,Default,,0,0,0,,{\an4\pos(426,384)}Tôi không biết.
+Dialogue: 0,0:05:41.94,0:05:44.34,Default,,0,0,0,,{\an4\pos(292,315)}Gypsy, tôi đã cố gắng
+Dialogue: 0,0:05:41.94,0:05:44.34,Default,,0,0,0,,{\an4\pos(291,351)}để có được một cái nắm giữ
+Dialogue: 0,0:05:41.94,0:05:44.34,Default,,0,0,0,,{\an4\pos(291,387)}hồ sơ y tế của bạn
+Dialogue: 0,0:05:44.47,0:05:45.96,Default,,0,0,0,,{\an4\pos(202,348)}để chúng ta có thể thấy
+Dialogue: 0,0:05:44.47,0:05:45.96,Default,,0,0,0,,{\an4\pos(201,384)}các bác sĩ
+Dialogue: 0,0:05:46.11,0:05:48.01,Default,,0,0,0,,{\an4\pos(170,351)}đã nói về bạn,
+Dialogue: 0,0:05:46.11,0:05:48.01,Default,,0,0,0,,{\an4\pos(171,387)}không chỉ những gì mẹ bạn nói.
+Dialogue: 0,0:05:48.14,0:05:51.08,Default,,0,0,0,,{\an4\pos(188,351)}Nhưng, ừm, tôi đang chạy
+Dialogue: 0,0:05:48.14,0:05:51.08,Default,,0,0,0,,{\an4\pos(188,387)}vào rất nhiều thủ tục hành chính rườm rà.
+Dialogue: 0,0:05:51.18,0:05:52.44,Default,,0,0,0,,{\an4\pos(206,351)}Họ đang nói với tôi
+Dialogue: 0,0:05:51.18,0:05:52.44,Default,,0,0,0,,{\an4\pos(206,387)}mà bạn đã ký
+Dialogue: 0,0:05:52.55,0:05:53.67,Default,,0,0,0,,{\an4\pos(185,348)}một số loại
+Dialogue: 0,0:05:52.55,0:05:53.67,Default,,0,0,0,,{\an4\pos(186,387)}giấy ủy quyền.
+Dialogue: 0,0:05:54.72,0:05:56.65,Default,,0,0,0,,{\an4\pos(180,387)}Ừm, chúng ta có thể may mắn hơn
+Dialogue: 0,0:05:56.79,0:05:59.31,Default,,0,0,0,,{\an4\pos(315,348)}nếu là người thân
+Dialogue: 0,0:05:56.79,0:05:59.31,Default,,0,0,0,,{\an4\pos(315,387)}đã yêu cầu hồ sơ.
+Dialogue: 0,0:05:59.45,0:06:01.92,Default,,0,0,0,,{\an4\pos(157,351)}Vậy còn bố của bạn thì sao?
+Dialogue: 0,0:05:59.45,0:06:01.92,Default,,0,0,0,,{\an4\pos(158,387)}Anh ấy ở dưới đó, phải không?
+Dialogue: 0,0:06:02.06,0:06:03.22,Default,,0,0,0,,{\an4\pos(217,384)}Ở Louisiana à?
+Dialogue: 0,0:06:03.36,0:06:04.92,Default,,0,0,0,,{\an4\pos(160,348)}Tôi đã viết và gọi
+Dialogue: 0,0:06:03.36,0:06:04.92,Default,,0,0,0,,{\an4\pos(158,387)}một vài lần,
+Dialogue: 0,0:06:05.06,0:06:06.55,Default,,0,0,0,,{\an4\pos(150,350)}nhưng không ai trả lời,
+Dialogue: 0,0:06:05.06,0:06:06.55,Default,,0,0,0,,{\an4\pos(150,387)}nhưng có lẽ nếu bạn gọi anh ấy--
+Dialogue: 0,0:06:06.70,0:06:08.06,Default,,0,0,0,,{\an4\pos(122,384)}Tôi không có bố.
+Dialogue: 0,0:06:09.80,0:06:12.60,Default,,0,0,0,,{\an4\pos(77,351)}Nó chỉ là
+Dialogue: 0,0:06:09.80,0:06:12.60,Default,,0,0,0,,{\an4\pos(75,387)}bao giờ tôi và mẹ tôi.
+Dialogue: 0,0:06:12.73,0:06:17.10,Default,,0,0,0,,{\an4\pos(115,351)}Và, vâng, tôi biết-- Tôi biết
+Dialogue: 0,0:06:12.73,0:06:17.10,Default,,0,0,0,,{\an4\pos(114,387)}rằng cô ấy đã làm những điều xấu.
+Dialogue: 0,0:06:18.64,0:06:19.61,Default,,0,0,0,,{\an4\pos(191,384)}Nhưng...
+Dialogue: 0,0:06:21.31,0:06:23.11,Default,,0,0,0,,{\an4\pos(99,384)}Nhưng cô ấy quan tâm đến tôi.
+Dialogue: 0,0:06:24.25,0:06:26.84,Default,,0,0,0,,{\an4\pos(125,384)}Và ít nhất thì cô ấy cũng yêu tôi.
+Dialogue: 0,0:06:28.12,0:06:29.28,Default,,0,0,0,,{\an4\pos(162,384)}Anh ấy đã không làm vậy.
+Dialogue: 0,0:06:32.22,0:06:34.38,Default,,0,0,0,,{\an4\pos(235,348)}Chúng ta phải bắt đầu
+Dialogue: 0,0:06:32.22,0:06:34.38,Default,,0,0,0,,{\an4\pos(236,387)}thay đổi câu chuyện.
+Dialogue: 0,0:06:36.83,0:06:39.29,Default,,0,0,0,,{\an4\pos(168,351)}Ngay lúc này thế giới nhìn thấy bạn
+Dialogue: 0,0:06:36.83,0:06:39.29,Default,,0,0,0,,{\an4\pos(167,384)}là một kẻ giết người máu lạnh.
+Dialogue: 0,0:06:41.43,0:06:44.06,Default,,0,0,0,,{\an4\pos(219,348)}Nhưng-- Nhưng tôi-- Tôi không thể
+Dialogue: 0,0:06:41.43,0:06:44.06,Default,,0,0,0,,{\an4\pos(219,387)}đã giết mẹ tôi.
+Dialogue: 0,0:06:44.17,0:06:46.36,Default,,0,0,0,,{\an4\pos(240,384)}Tôi yêu cô ấy rất nhiều.
+Dialogue: 0,0:06:50.17,0:06:52.77,Default,,0,0,0,,{\an4\pos(182,351)}Sau đó chúng ta cần phải nắm giữ
+Dialogue: 0,0:06:50.17,0:06:52.77,Default,,0,0,0,,{\an4\pos(183,384)}trong số các hồ sơ y tế đó.
+Dialogue: 0,0:06:53.94,0:06:56.24,Default,,0,0,0,,{\an4\pos(162,387)}Chúng tôi cần mọi người ở bên cạnh bạn,
+Dialogue: 0,0:06:56.34,0:06:59.14,Default,,0,0,0,,{\an4\pos(209,348)}hoặc Tiểu bang Missouri
+Dialogue: 0,0:06:56.34,0:06:59.14,Default,,0,0,0,,{\an4\pos(210,387)}sẽ giết chết bạn.
+Dialogue: 0,0:07:14.33,0:07:15.89,Default,,0,0,0,,{\an4\pos(279,387)}Ồ. Xin lỗi.
+Dialogue: 0,0:07:17.70,0:07:18.86,Default,,0,0,0,,{\an4\pos(294,387)}Tôi đang loạng choạng.
+Dialogue: 0,0:07:20.07,0:07:22.23,Default,,0,0,0,,{\an4\pos(109,351)}Tôi đã dành cả cuộc đời mình
+Dialogue: 0,0:07:20.07,0:07:22.23,Default,,0,0,0,,{\an4\pos(108,384)}trên xe lăn.
+Dialogue: 0,0:08:00.98,0:08:02.50,Default,,0,0,0,,{\an4\pos(214,387)}Bạn đang tăng cân.
+Dialogue: 0,0:08:02.64,0:08:04.34,Default,,0,0,0,,{\an4\pos(203,384)}Tôi không thấy điều đó nhiều ở đây.
+Dialogue: 0,0:08:07.22,0:08:09.01,Default,,0,0,0,,{\an4\pos(196,387)}Tôi có thể nhờ bạn một việc được không?
+Dialogue: 0,0:08:13.12,0:08:14.09,Default,,0,0,0,,{\an4\pos(333,384)}Một...
+Dialogue: 0,0:08:14.99,0:08:18.62,Default,,0,0,0,,{\an5\pos(351,96)}Tôi cần phải giữ máy
+Dialogue: 0,0:08:14.99,0:08:18.62,Default,,0,0,0,,{\an5\pos(369,132)}hồ sơ y tế của tôi
+Dialogue: 0,0:08:14.99,0:08:18.62,Default,,0,0,0,,{\an4\pos(217,167)}từ Louisiana,
+Dialogue: 0,0:08:18.73,0:08:21.99,Default,,0,0,0,,{\an4\pos(185,351)}và tôi hy vọng có thể
+Dialogue: 0,0:08:18.73,0:08:21.99,Default,,0,0,0,,{\an4\pos(184,387)}bạn có thể thử và lấy chúng
+Dialogue: 0,0:08:22.13,0:08:23.26,Default,,0,0,0,,{\an4\pos(156,387)}vì anh là bác sĩ mới của tôi.
+Dialogue: 0,0:08:23.37,0:08:25.53,Default,,0,0,0,,{\an4\pos(125,348)}Mọi việc không diễn ra như vậy.
+Dialogue: 0,0:08:23.37,0:08:25.53,Default,,0,0,0,,{\an4\pos(127,384)}Nằm ngửa ra.
+Dialogue: 0,0:08:33.38,0:08:34.34,Default,,0,0,0,,{\an4\pos(310,387)}Cởi áo lên.
+Dialogue: 0,0:08:37.35,0:08:38.37,Default,,0,0,0,,{\an4\pos(589,384)}Ồ.
+Dialogue: 0,0:08:39.71,0:08:42.18,Default,,0,0,0,,{\an4\pos(271,351)}Tôi nghĩ rằng tôi có thể thoát khỏi
+Dialogue: 0,0:08:39.71,0:08:42.18,Default,,0,0,0,,{\an4\pos(269,387)}của điều này dành cho bạn.
+Dialogue: 0,0:08:43.75,0:08:45.35,Default,,0,0,0,,{\an4\pos(220,351)}Bạn có chắc chắn rằng
+Dialogue: 0,0:08:43.75,0:08:45.35,Default,,0,0,0,,{\an4\pos(220,387)}một ý tưởng hay?
+Dialogue: 0,0:08:45.75,0:08:46.81,Default,,0,0,0,,{\an4\pos(389,384)}Bạn không cần nó.
+Dialogue: 0,0:08:48.99,0:08:51.36,Default,,0,0,0,,{\an4\pos(110,351)}Tôi đã bị đau nhức
+Dialogue: 0,0:08:48.99,0:08:51.36,Default,,0,0,0,,{\an4\pos(108,387)}và đau nhức gần đây.
+Dialogue: 0,0:08:51.49,0:08:53.46,Default,,0,0,0,,{\an4\pos(258,351)}Hầu hết là đầu tôi
+Dialogue: 0,0:08:51.49,0:08:53.46,Default,,0,0,0,,{\an4\pos(256,387)}và trong khớp của tôi.
+Dialogue: 0,0:08:53.56,0:08:57.40,Default,,0,0,0,,{\an4\pos(130,348)}Và tôi biết rằng đôi khi
+Dialogue: 0,0:08:53.56,0:08:57.40,Default,,0,0,0,,{\an4\pos(130,387)}có thể là triệu chứng của nhiễm trùng.
+Dialogue: 0,0:08:57.53,0:08:59.50,Default,,0,0,0,,{\an4\pos(137,323)}Bạn có nghĩ nó liên quan không?
+Dialogue: 0,0:08:57.53,0:08:59.50,Default,,0,0,0,,{\an4\pos(437,384)}Không.
+Dialogue: 0,0:09:04.34,0:09:07.14,Default,,0,0,0,,{\an4\pos(292,351)}Bạn chỉ cần
+Dialogue: 0,0:09:04.34,0:09:07.14,Default,,0,0,0,,{\an4\pos(293,387)}một ít aspirin.
+Dialogue: 0,0:09:16.62,0:09:18.75,Default,,0,0,0,,{\an4\pos(311,348)}Bác sĩ già
+Dialogue: 0,0:09:16.62,0:09:18.75,Default,,0,0,0,,{\an4\pos(311,387)}đã làm điều đó nhẹ nhàng hơn.
+Dialogue: 0,0:09:19.75,0:09:23.25,Default,,0,0,0,,{\an4\pos(262,351)}Tôi gặp mọi người cả ngày
+Dialogue: 0,0:09:19.75,0:09:23.25,Default,,0,0,0,,{\an4\pos(259,386)}với các vấn đề y tế thực sự,
+Dialogue: 0,0:09:23.36,0:09:25.55,Default,,0,0,0,,{\an4\pos(256,387)}giống như ung thư và đâm dao.
+Dialogue: 0,0:09:26.96,0:09:28.93,Default,,0,0,0,,{\an4\pos(219,348)}Bạn là một trong những người khỏe mạnh nhất
+Dialogue: 0,0:09:26.96,0:09:28.93,Default,,0,0,0,,{\an4\pos(221,387)}người ở đây.
+Dialogue: 0,0:09:29.03,0:09:30.00,Default,,0,0,0,,{\an4\pos(325,387)}Ngồi dậy.
+Dialogue: 0,0:09:41.21,0:09:43.61,Default,,0,0,0,,{\an4\pos(244,387)}Ừm, tôi có thể giữ cái ống đó được không?
+Dialogue: 0,0:09:47.45,0:09:50.01,Default,,0,0,0,,{\an4\pos(316,351)}Đó là điều cuối cùng
+Dialogue: 0,0:09:47.45,0:09:50.01,Default,,0,0,0,,{\an4\pos(313,387)}mà tôi có về mẹ tôi.
+Dialogue: 0,0:09:51.35,0:09:53.95,Default,,0,0,0,,{\an4\pos(125,386)}Vâng, bây giờ nó là mối nguy sinh học.
+Dialogue: 0,0:10:38.27,0:10:41.07,Default,,0,0,0,,{\an4\pos(231,351)}Đối đầu với
+Dialogue: 0,0:10:38.27,0:10:41.07,Default,,0,0,0,,{\an4\pos(230,387)}bức tường! Đi thôi!
+Dialogue: 0,0:10:41.20,0:10:43.17,Default,,0,0,0,,{\an4\pos(141,387)}Các tù nhân nữ đang đi qua!
+Dialogue: 0,0:10:48.58,0:10:50.37,Default,,0,0,0,,{\an4\pos(219,351)}Bạn có cần
+Dialogue: 0,0:10:48.58,0:10:50.37,Default,,0,0,0,,{\an4\pos(218,384)}được nói hai lần?
+Dialogue: 0,0:10:50.78,0:10:51.75,Default,,0,0,0,,{\an4\pos(334,384)}Bức tường!
+Dialogue: 0,0:10:55.95,0:10:57.92,Default,,0,0,0,,{\an4\pos(338,387)}Người Digan? Người Digan?
+Dialogue: 0,0:10:59.92,0:11:01.95,Default,,0,0,0,,{\an4\pos(188,387)}Tôi có thể trả lời câu hỏi.
+Dialogue: 0,0:11:02.09,0:11:04.06,Default,,0,0,0,,{\an4\pos(240,351)}Bonnie và Clyde,
+Dialogue: 0,0:11:02.09,0:11:04.06,Default,,0,0,0,,{\an4\pos(238,387)}họ chết cùng nhau.
+Dialogue: 0,0:11:05.36,0:11:06.83,Default,,0,0,0,,{\an4\pos(353,351)}Họ gắn bó với nhau
+Dialogue: 0,0:11:05.36,0:11:06.83,Default,,0,0,0,,{\an4\pos(352,387)}giống như chúng ta.
+Dialogue: 0,0:11:06.96,0:11:08.55,Default,,0,0,0,,{\an4\pos(291,387)}Bên nhau đến cuối cùng.
+Dialogue: 0,0:11:12.43,0:11:13.80,Default,,0,0,0,,{\an4\pos(160,386)}Không, không. Tôi không muốn điều đó.
+Dialogue: 0,0:11:16.34,0:11:17.31,Default,,0,0,0,,{\an4\pos(365,384)}Cái gì?
+Dialogue: 0,0:11:19.71,0:11:21.44,Default,,0,0,0,,{\an4\pos(224,384)}Tôi không muốn chết!
+Dialogue: 0,0:11:22.48,0:11:23.60,Default,,0,0,0,,{\an4\pos(478,323)}Này!
+Dialogue: 0,0:11:23.71,0:11:25.68,Default,,0,0,0,,{\an4\pos(127,351)}Nhưng chúng ta sẽ đoàn kết với nhau,
+Dialogue: 0,0:11:23.71,0:11:25.68,Default,,0,0,0,,{\an4\pos(125,387)}mặc dù vậy, đúng không?
+Dialogue: 0,0:11:26.45,0:11:27.64,Default,,0,0,0,,{\an4\pos(336,384)}Chúa Giê-su Christ!
+Dialogue: 0,0:11:27.78,0:11:29.65,Default,,0,0,0,,{\an4\pos(210,348)}Bởi vì đó là--
+Dialogue: 0,0:11:27.78,0:11:29.65,Default,,0,0,0,,{\an4\pos(208,387)}Đó là lý do tại sao tôi cứu bạn,
+Dialogue: 0,0:11:29.78,0:11:31.75,Default,,0,0,0,,{\an4\pos(165,348)}là để chúng ta có thể
+Dialogue: 0,0:11:29.78,0:11:31.75,Default,,0,0,0,,{\an4\pos(166,387)}ở lại với nhau.
+Dialogue: 0,0:11:33.86,0:11:35.82,Default,,0,0,0,,{\an4\pos(235,351)}Tôi nói khi dựa vào tường,
+Dialogue: 0,0:11:33.86,0:11:35.82,Default,,0,0,0,,{\an4\pos(234,384)}thằng khốn nạn.
+Dialogue: 0,0:11:35.96,0:11:37.76,Default,,0,0,0,,{\an4\pos(331,320)}Di chuyển!
+Dialogue: 0,0:11:35.96,0:11:37.76,Default,,0,0,0,,{\an4\pos(259,387)}G-Người Digan!
+Dialogue: 0,0:11:39.23,0:11:41.03,Default,,0,0,0,,{\an4\pos(116,351)}Này!
+Dialogue: 0,0:11:39.23,0:11:41.03,Default,,0,0,0,,{\an4\pos(115,387)}Bạn đang nhìn gì thế?
+Dialogue: 0,0:11:41.16,0:11:42.76,Default,,0,0,0,,{\an4\pos(134,386)}Nhìn vào bức tường đi, đồ khốn nạn!
+Dialogue: 0,0:12:00.85,0:12:02.28,Default,,0,0,0,,{\an4\pos(89,384)}Tôi hiểu rồi.
+Dialogue: 0,0:12:03.65,0:12:06.25,Default,,0,0,0,,{\an4\pos(146,387)}Chỉ là bạn không bao giờ--
+Dialogue: 0,0:12:19.10,0:12:20.09,Default,,0,0,0,,{\an4\pos(266,383)\i1}Xin chào?{\i0}
+Dialogue: 0,0:12:20.24,0:12:21.26,Default,,0,0,0,,{\an4\pos(302,387)}Lacey?
+Dialogue: 0,0:12:21.67,0:12:22.73,Default,,0,0,0,,{\an4\pos(262,386)\i1}Người Digan.{\i0}
+Dialogue: 0,0:12:22.84,0:12:24.81,Default,,0,0,0,,{\an4\pos(187,387)}Lacey, trời ơi. Xin chào!
+Dialogue: 0,0:12:24.94,0:12:27.24,Default,,0,0,0,,{\an4\pos(213,351)}Xin chào. Tôi rất tiếc
+Dialogue: 0,0:12:24.94,0:12:27.24,Default,,0,0,0,,{\an4\pos(214,387)}Tôi chưa gọi cho anh trước.
+Dialogue: 0,0:12:27.34,0:12:28.64,Default,,0,0,0,,{\an4\pos(251,387)}Tôi--Tôi rất xin lỗi.
+Dialogue: 0,0:12:28.78,0:12:30.14,Default,,0,0,0,,{\an4\pos(161,351)}Tôi nghĩ tôi chỉ ở nhà thôi
+Dialogue: 0,0:12:28.78,0:12:30.14,Default,,0,0,0,,{\an4\pos(159,384)}sớm hơn nhiều
+Dialogue: 0,0:12:30.28,0:12:32.37,Default,,0,0,0,,{\an4\pos(222,351)}để có thể cho bạn biết
+Dialogue: 0,0:12:30.28,0:12:32.37,Default,,0,0,0,,{\an4\pos(223,387)}mọi thứ trực tiếp.
+Dialogue: 0,0:12:32.48,0:12:34.21,Default,,0,0,0,,{\an4\pos(166,386)\i1}Mọi thứ trên bản tin, như,{\i0}
+Dialogue: 0,0:12:34.32,0:12:36.65,Default,,0,0,0,,{\an4\pos(183,350)\i1}rằng chúng tôi đã lừa dối mọi người{\i0}
+Dialogue: 0,0:12:34.32,0:12:36.65,Default,,0,0,0,,{\an4\pos(183,386)\i1}để kiếm tiền và đồ đạc,{\i0}
+Dialogue: 0,0:12:36.78,0:12:38.38,Default,,0,0,0,,{\an4\pos(258,347)\i1}nó-- Nó không phải{\i0}
+Dialogue: 0,0:12:36.78,0:12:38.38,Default,,0,0,0,,{\an4\pos(259,386)\i1}toàn bộ câu chuyện.{\i0}
+Dialogue: 0,0:12:38.49,0:12:40.55,Default,,0,0,0,,{\an4\pos(231,350)\i1}Tôi chỉ-- Tôi chỉ muốn{\i0}
+Dialogue: 0,0:12:38.49,0:12:40.55,Default,,0,0,0,,{\an4\pos(230,386)\i1}bạn biết điều đó.{\i0}
+Dialogue: 0,0:12:40.66,0:12:42.49,Default,,0,0,0,,{\an4\pos(246,351)}Ý tôi là, mẹ tôi--
+Dialogue: 0,0:12:40.66,0:12:42.49,Default,,0,0,0,,{\an4\pos(246,387)}Tôi đoán là cô ấy,
+Dialogue: 0,0:12:42.62,0:12:44.42,Default,,0,0,0,,{\an4\pos(266,348)}nhưng đối với tôi--
+Dialogue: 0,0:12:42.62,0:12:44.42,Default,,0,0,0,,{\an4\pos(266,386)}Giống như, đối với tôi,
+Dialogue: 0,0:12:44.53,0:12:47.59,Default,,0,0,0,,{\an4\pos(181,351)}luật sư của tôi nói rằng đó là
+Dialogue: 0,0:12:44.53,0:12:47.59,Default,,0,0,0,,{\an4\pos(181,387)}về cơ bản là trường hợp của cô ấy, ừm,
+Dialogue: 0,0:12:47.70,0:12:49.66,Default,,0,0,0,,{\an4\pos(215,387)}lạm dụng tôi về mặt y tế.
+Dialogue: 0,0:12:51.37,0:12:53.96,Default,,0,0,0,,{\an4\pos(213,387)}Vậy là anh đã giết cô ấy?
+Dialogue: 0,0:12:58.17,0:13:01.47,Default,,0,0,0,,{\an4\pos(203,351)}Không-- Không giống như cách họ--
+Dialogue: 0,0:12:58.17,0:13:01.47,Default,,0,0,0,,{\an4\pos(201,387)}họ làm cho nó có vẻ như vậy.
+Dialogue: 0,0:13:01.61,0:13:03.20,Default,,0,0,0,,{\an4\pos(283,384)}Tôi-- Tôi không thể.
+Dialogue: 0,0:13:03.34,0:13:04.84,Default,,0,0,0,,{\an4\pos(221,387)}Bạn biết điều đó, phải không?
+Dialogue: 0,0:13:07.35,0:13:10.72,Default,,0,0,0,,{\an4\pos(186,387)}Bạn có thể luôn đi bộ được không?
+Dialogue: 0,0:13:12.05,0:13:13.65,Default,,0,0,0,,{\an4\pos(237,385)\i1}Giống như, suốt thời gian này?{\i0}
+Dialogue: 0,0:13:15.12,0:13:17.92,Default,,0,0,0,,{\an4\pos(143,387)}Ừm, tôi có thể nói cho bạn điều này không?
+Dialogue: 0,0:13:22.63,0:13:24.60,Default,,0,0,0,,{\an4\pos(247,351)}Ngày đầu tiên
+Dialogue: 0,0:13:22.63,0:13:24.60,Default,,0,0,0,,{\an4\pos(247,386)}mà chúng tôi chuyển đến,
+Dialogue: 0,0:13:25.23,0:13:26.39,Default,,0,0,0,,{\an4\pos(259,386)}kể từ đó,
+Dialogue: 0,0:13:27.20,0:13:30.23,Default,,0,0,0,,{\an4\pos(260,348)}tất cả những gì tôi muốn là
+Dialogue: 0,0:13:27.20,0:13:30.23,Default,,0,0,0,,{\an4\pos(259,387)}để được giống như bạn.
+Dialogue: 0,0:13:32.71,0:13:33.73,Default,,0,0,0,,{\an4\pos(348,383)\i1}Và...{\i0}
+Dialogue: 0,0:13:35.78,0:13:39.58,Default,,0,0,0,,{\an4\pos(155,351)}Và tôi thực sự chỉ cần một ai đó
+Dialogue: 0,0:13:35.78,0:13:39.58,Default,,0,0,0,,{\an4\pos(154,387)}để nói chuyện ngay bây giờ.
+Dialogue: 0,0:13:42.38,0:13:43.44,Default,,0,0,0,,{\an4\pos(177,387)}Tôi muốn kể cho bạn mọi chuyện.
+Dialogue: 0,0:13:44.62,0:13:47.42,Default,,0,0,0,,{\an4\pos(182,386)\i1}Nó thực sự phức tạp.{\i0}
+Dialogue: 0,0:13:49.22,0:13:50.19,Default,,0,0,0,,{\an4\pos(356,383)\i1}Tôi--{\i0}
+Dialogue: 0,0:13:52.46,0:13:53.62,Default,,0,0,0,,{\an4\pos(238,387)}Bạn có nghĩ rằng...
+Dialogue: 0,0:13:54.46,0:13:58.26,Default,,0,0,0,,{\an4\pos(163,351)}Bạn có nghĩ rằng có thể
+Dialogue: 0,0:13:54.46,0:13:58.26,Default,,0,0,0,,{\an4\pos(162,386)}Đến đây nào, tôi không biết, nhìn thấy tôi không?
+Dialogue: 0,0:14:01.57,0:14:02.66,Default,,0,0,0,,{\an4\pos(313,383)\i1}Làm ơn?{\i0}
+Dialogue: 0,0:14:03.30,0:14:04.33,Default,,0,0,0,,{\an4\pos(313,384)}Một...
+Dialogue: 0,0:14:06.64,0:14:07.61,Default,,0,0,0,,{\an4\pos(337,384)}Ờ...
+Dialogue: 0,0:14:08.91,0:14:10.44,Default,,0,0,0,,{\an4\pos(201,384)}Tôi sẽ phải suy nghĩ về điều đó.
+Dialogue: 0,0:14:11.35,0:14:13.32,Default,,0,0,0,,{\an4\pos(271,386)\i1}Tôi-- Tôi xin lỗi.{\i0}
+Dialogue: 0,0:14:15.35,0:14:16.61,Default,,0,0,0,,{\an4\pos(283,386)\i1}Tôi phải đi.{\i0}
+Dialogue: 0,0:14:16.72,0:14:18.12,Default,,0,0,0,,{\an4\pos(256,320)}Nhưng--
+Dialogue: 0,0:14:32.27,0:14:33.67,Default,,0,0,0,,{\an4\pos(90,384)}Con đĩ này.
+Dialogue: 0,0:14:34.34,0:14:36.03,Default,,0,0,0,,{\an4\pos(116,387)}Này, mỗi lượt gọi một lần nhé!
+Dialogue: 0,0:14:36.17,0:14:38.14,Default,,0,0,0,,{\an4\pos(100,348)}Bạn nghĩ những quy tắc này
+Dialogue: 0,0:14:36.17,0:14:38.14,Default,,0,0,0,,{\an4\pos(101,387)}không áp dụng với bạn?
+Dialogue: 0,0:14:50.52,0:14:53.01,Default,,0,0,0,,{\an4\pos(261,347)\i1}Tôi không có ở đây.{\i0}
+Dialogue: 0,0:14:50.52,0:14:53.01,Default,,0,0,0,,{\an4\pos(260,386)\i1}Để lại tin nhắn.{\i0}
+Dialogue: 0,0:14:55.26,0:14:57.23,Default,,0,0,0,,{\an4\pos(187,387)}Đây là con gái của bạn...
+Dialogue: 0,0:14:58.06,0:14:59.43,Default,,0,0,0,,{\an4\pos(206,387)}Gypsy Rose Blanchard.
+Dialogue: 0,0:15:01.56,0:15:03.72,Default,,0,0,0,,{\an4\pos(229,351)}Ừm, tôi biết rằng bạn
+Dialogue: 0,0:15:01.56,0:15:03.72,Default,,0,0,0,,{\an4\pos(228,384)}thậm chí còn không biết tôi.
+Dialogue: 0,0:15:03.83,0:15:07.50,Default,,0,0,0,,{\an4\pos(286,386)}Nhưng tôi, ừm,
+Dialogue: 0,0:15:07.64,0:15:12.01,Default,,0,0,0,,{\an4\pos(232,351)}gọi chỉ với một
+Dialogue: 0,0:15:07.64,0:15:12.01,Default,,0,0,0,,{\an4\pos(233,387)}một sự giúp đỡ nhỏ nhoi.
+Dialogue: 0,0:15:27.46,0:15:28.82,Default,,0,0,0,,{\an4\pos(243,386)\i1}Kéo sợi dây{\i0}
+Dialogue: 0,0:15:28.96,0:15:31.29,Default,,0,0,0,,{\an4\pos(239,386)\i1}Và tôi sẽ nháy mắt với bạn{\i0}
+Dialogue: 0,0:15:31.39,0:15:32.99,Default,,0,0,0,,{\an4\pos(222,386)\i1}Tôi là con rối của bạn{\i0}
+Dialogue: 0,0:15:34.06,0:15:35.46,Default,,0,0,0,,{\an4\pos(262,386)\i1}Tôi là con rối của bạn{\i0}
+Dialogue: 0,0:15:37.37,0:15:39.36,Default,,0,0,0,,{\an4\pos(227,386)\i1}Tôi sẽ làm những điều buồn cười...{\i0}
+Dialogue: 0,0:15:39.50,0:15:41.97,Default,,0,0,0,,{\an4\pos(187,351)}Tôi đã đón cô ấy
+Dialogue: 0,0:15:39.50,0:15:41.97,Default,,0,0,0,,{\an4\pos(187,384)}một lần để di chuyển cô ấy.
+Dialogue: 0,0:15:42.07,0:15:43.80,Default,,0,0,0,,{\an4\pos(167,387)}Bế cô ấy trong vòng tay của mình.
+Dialogue: 0,0:15:43.91,0:15:45.53,Default,,0,0,0,,{\an4\pos(171,351)}Hai người họ ngồi
+Dialogue: 0,0:15:43.91,0:15:45.53,Default,,0,0,0,,{\an4\pos(172,387)}ở đó cùng nhau
+Dialogue: 0,0:15:45.67,0:15:46.70,Default,,0,0,0,,{\an4\pos(227,387)}cười nhạo chúng ta.
+Dialogue: 0,0:15:46.84,0:15:49.21,Default,,0,0,0,,{\an4\pos(207,351)}Ừm, và ăn cắp
+Dialogue: 0,0:15:46.84,0:15:49.21,Default,,0,0,0,,{\an4\pos(205,384)}từ Ronald McDonald.
+Dialogue: 0,0:15:49.91,0:15:51.88,Default,,0,0,0,,{\an4\pos(275,350)}Bạn hỏi tôi,
+Dialogue: 0,0:15:49.91,0:15:51.88,Default,,0,0,0,,{\an4\pos(274,384)}cô ấy xứng đáng ngồi ghế đó.
+Dialogue: 0,0:15:52.01,0:15:54.71,Default,,0,0,0,,{\an4\pos(181,348)}Và tôi không có ý nói
+Dialogue: 0,0:15:52.01,0:15:54.71,Default,,0,0,0,,{\an4\pos(182,384)}cũng không có xe lăn.
+Dialogue: 0,0:15:54.85,0:15:57.18,Default,,0,0,0,,{\an4\pos(132,351)}Họ làm điều đó
+Dialogue: 0,0:15:54.85,0:15:57.18,Default,,0,0,0,,{\an4\pos(131,384)}với một cây kim ở Missouri.
+Dialogue: 0,0:15:57.32,0:15:59.12,Default,,0,0,0,,{\an4\pos(237,320)}Tốt.
+Dialogue: 0,0:15:57.32,0:15:59.12,Default,,0,0,0,,{\an4\pos(65,387)}Em bé à?
+Dialogue: 0,0:15:59.72,0:16:01.12,Default,,0,0,0,,{\an4\pos(318,387)}Bạn có thấy thoải mái không?
+Dialogue: 0,0:16:01.82,0:16:03.69,Default,,0,0,0,,{\an4\pos(319,351)}Mọi người đều nói xấu
+Dialogue: 0,0:16:01.82,0:16:03.69,Default,,0,0,0,,{\an4\pos(318,384)}về họ?
+Dialogue: 0,0:16:04.49,0:16:05.89,Default,,0,0,0,,{\an4\pos(161,386)}Đúng vậy.
+Dialogue: 0,0:16:05.99,0:16:07.19,Default,,0,0,0,,{\an4\pos(159,387)}Tức điên lên được.
+Dialogue: 0,0:16:07.80,0:16:10.20,Default,,0,0,0,,{\an4\pos(200,351)}Mỗi ngày trôi qua,
+Dialogue: 0,0:16:07.80,0:16:10.20,Default,,0,0,0,,{\an4\pos(201,387)}Tôi càng tức điên hơn.
+Dialogue: 0,0:16:10.83,0:16:12.73,Default,,0,0,0,,{\an4\pos(154,351)}Nghĩ về hai người họ
+Dialogue: 0,0:16:10.83,0:16:12.73,Default,,0,0,0,,{\an4\pos(154,387)}lừa đảo lợi dụng.
+Dialogue: 0,0:16:12.83,0:16:14.39,Default,,0,0,0,,{\an4\pos(162,387)}Không, chúng còn tệ hơn cả gian lận.
+Dialogue: 0,0:16:14.50,0:16:17.47,Default,,0,0,0,,{\an4\pos(350,351)}Ma cà rồng cảm xúc,
+Dialogue: 0,0:16:14.50,0:16:17.47,Default,,0,0,0,,{\an4\pos(349,387)}hút cạn máu người khác.
+Dialogue: 0,0:16:17.61,0:16:19.57,Default,,0,0,0,,{\an4\pos(292,351)}Hút hết thiện chí của họ,
+Dialogue: 0,0:16:17.61,0:16:19.57,Default,,0,0,0,,{\an4\pos(291,384)}lòng tin của họ.
+Dialogue: 0,0:16:21.64,0:16:23.58,Default,,0,0,0,,{\an4\pos(243,351)}Bạn chỉ điên thôi
+Dialogue: 0,0:16:21.64,0:16:23.58,Default,,0,0,0,,{\an4\pos(245,387)}bởi vì bạn nghĩ
+Dialogue: 0,0:16:23.68,0:16:25.58,Default,,0,0,0,,{\an4\pos(174,351)}bạn có số của mọi người
+Dialogue: 0,0:16:23.68,0:16:25.58,Default,,0,0,0,,{\an4\pos(175,387)}và họ đã lừa bạn
+Dialogue: 0,0:16:25.68,0:16:27.48,Default,,0,0,0,,{\an4\pos(202,351)}trong bảy năm liên tiếp
+Dialogue: 0,0:16:25.68,0:16:27.48,Default,,0,0,0,,{\an4\pos(201,387)}cũng giống như mọi người khác.
+Dialogue: 0,0:16:27.62,0:16:29.74,Default,,0,0,0,,{\an4\pos(98,348)}Thì sao nếu tôi là người đó?
+Dialogue: 0,0:16:27.62,0:16:29.74,Default,,0,0,0,,{\an4\pos(95,387)}Tại sao tôi lại không thể?
+Dialogue: 0,0:16:29.85,0:16:31.25,Default,,0,0,0,,{\an4\pos(220,386)\i1}Tất cả những gì bạn phải làm{\i0}
+Dialogue: 0,0:16:31.35,0:16:33.95,Default,,0,0,0,,{\an4\pos(212,386)\i1}Chỉ cần vẫy tay{\i0}
+Dialogue: 0,0:16:34.09,0:16:35.45,Default,,0,0,0,,{\an4\pos(222,386)\i1}Tôi là con rối của bạn{\i0}
+Dialogue: 0,0:16:36.16,0:16:37.75,Default,,0,0,0,,{\an4\pos(262,386)\i1}Tôi là con rối của bạn{\i0}
+Dialogue: 0,0:16:39.63,0:16:40.99,Default,,0,0,0,,{\an4\pos(108,387)}Cô ấy đã gọi cho tôi, bạn biết không?
+Dialogue: 0,0:16:41.86,0:16:42.92,Default,,0,0,0,,{\an4\pos(83,387)}Từ nhà tù.
+Dialogue: 0,0:16:44.10,0:16:45.12,Default,,0,0,0,,{\an4\pos(376,384)}Cô ấy đã làm thế ư? Khi nào?
+Dialogue: 0,0:16:45.27,0:16:46.43,Default,,0,0,0,,{\an4\pos(87,387)}Hôm nọ.
+Dialogue: 0,0:16:47.67,0:16:49.26,Default,,0,0,0,,{\an4\pos(154,384)}Thậm chí nghe chẳng giống cô ấy chút nào.
+Dialogue: 0,0:16:49.97,0:16:51.84,Default,,0,0,0,,{\an4\pos(94,348)}Tôi thề là giọng cô ấy
+Dialogue: 0,0:16:49.97,0:16:51.84,Default,,0,0,0,,{\an4\pos(91,384)}khác nhau.
+Dialogue: 0,0:16:54.11,0:16:55.41,Default,,0,0,0,,{\an4\pos(115,384)}Cô ấy muốn tôi đến thăm.
+Dialogue: 0,0:16:57.85,0:16:58.81,Default,,0,0,0,,{\an4\pos(266,387)}Bạn sẽ?
+Dialogue: 0,0:17:00.05,0:17:03.31,Default,,0,0,0,,{\an4\pos(214,386)\i1}Tôi sẽ làm bất cứ điều gì cho bạn{\i0}
+Dialogue: 0,0:17:03.42,0:17:05.58,Default,,0,0,0,,{\an4\pos(206,386)\i1}Ồ, ồ, tôi là con rối của anh{\i0}
+Dialogue: 0,0:17:05.72,0:17:06.88,Default,,0,0,0,,{\an4\pos(304,384)}Tôi không biết.
+Dialogue: 0,0:17:08.29,0:17:11.26,Default,,0,0,0,,{\an4\pos(218,386)\i1}Ừ, tôi là con rối của anh{\i0}
+Dialogue: 0,0:17:12.96,0:17:14.22,Default,,0,0,0,,{\an4\pos(348,384)}Cái quái gì thế này?
+Dialogue: 0,0:17:14.80,0:17:17.39,Default,,0,0,0,,{\an4\pos(84,284)}Cái gì?
+Dialogue: 0,0:17:14.80,0:17:17.39,Default,,0,0,0,,{\an4\pos(389,348)}Tôi nghĩ
+Dialogue: 0,0:17:14.80,0:17:17.39,Default,,0,0,0,,{\an4\pos(386,387)}đó là máy xay sinh tố của tôi.
+Dialogue: 0,0:17:17.53,0:17:19.66,Default,,0,0,0,,{\an4\pos(365,284)}Tôi đã cho Dee Dee mượn
+Dialogue: 0,0:17:17.53,0:17:19.66,Default,,0,0,0,,{\an4\pos(364,323)}năm ngoái.
+Dialogue: 0,0:17:17.53,0:17:19.66,Default,,0,0,0,,{\an4\pos(85,384)}Mẹ--
+Dialogue: 0,0:17:19.77,0:17:20.89,Default,,0,0,0,,{\an4\pos(324,384)}Cái gì? Tôi muốn lấy lại nó.
+Dialogue: 0,0:17:21.04,0:17:22.56,Default,,0,0,0,,{\an4\pos(126,320)}Nó là của tôi.
+Dialogue: 0,0:17:21.04,0:17:22.56,Default,,0,0,0,,{\an4\pos(154,387)}Anh đang làm cái quái gì thế?
+Dialogue: 0,0:17:22.70,0:17:24.67,Default,,0,0,0,,{\an4\pos(452,93)}Đừng.
+Dialogue: 0,0:17:22.70,0:17:24.67,Default,,0,0,0,,{\an4\pos(184,160)}Tôi sẽ đi lấy đồ của tôi.
+Dialogue: 0,0:17:24.77,0:17:27.37,Default,,0,0,0,,{\an4\pos(110,315)}Và nếu bất kỳ ai trong số các bạn
+Dialogue: 0,0:17:24.77,0:17:27.37,Default,,0,0,0,,{\an4\pos(110,351)}đã quyên góp đồ của bạn
+Dialogue: 0,0:17:24.77,0:17:27.37,Default,,0,0,0,,{\an4\pos(109,386)}với những kẻ lừa đảo này,
+Dialogue: 0,0:17:27.48,0:17:29.10,Default,,0,0,0,,{\an4\pos(123,387)}Tôi khuyên bạn nên làm như vậy.
+Dialogue: 0,0:17:29.98,0:17:31.45,Default,,0,0,0,,{\an4\pos(220,386)\i1}Tôi là con rối của bạn{\i0}
+Dialogue: 0,0:17:38.75,0:17:41.12,Default,,0,0,0,,{\an4\pos(231,350)\i1}Giờ thăm{\i0}
+Dialogue: 0,0:17:38.75,0:17:41.12,Default,,0,0,0,,{\an4\pos(227,383)\i1}bắt đầu sau 20 phút nữa.{\i0}
+Dialogue: 0,0:17:41.26,0:17:42.85,Default,,0,0,0,,{\an4\pos(219,350)\i1}Những tù nhân sau đây{\i0}
+Dialogue: 0,0:17:41.26,0:17:42.85,Default,,0,0,0,,{\an4\pos(215,386)\i1}vui lòng báo cáo{\i0}
+Dialogue: 0,0:17:42.96,0:17:44.36,Default,,0,0,0,,{\an4\pos(261,350)\i1}đến bảo mật{\i0}
+Dialogue: 0,0:17:42.96,0:17:44.36,Default,,0,0,0,,{\an4\pos(260,386)\i1}khu vực sàng lọc.{\i0}
+Dialogue: 0,0:17:44.46,0:17:47.62,Default,,0,0,0,,{\an5\pos(368,94)\i1}Adler, Beckham, Blanchard.{\i0}
+Dialogue: 0,0:17:52.23,0:17:53.39,Default,,0,0,0,,{\an4\pos(263,387)}Lacey.
+Dialogue: 0,0:18:08.35,0:18:11.15,Default,,0,0,0,,{\an4\pos(115,348)}Tôi đã bảo họ đưa tôi đi
+Dialogue: 0,0:18:08.35,0:18:11.15,Default,,0,0,0,,{\an4\pos(112,387)}đến các máy bán hàng tự động.
+Dialogue: 0,0:18:14.32,0:18:15.88,Default,,0,0,0,,{\an4\pos(130,387)}Bạn luôn thích đồ ngọt.
+Dialogue: 0,0:18:24.53,0:18:27.00,Default,,0,0,0,,{\an4\pos(122,387)}Tôi hơi lo lắng, Gypsy.
+Dialogue: 0,0:18:27.10,0:18:29.50,Default,,0,0,0,,{\an4\pos(103,351)}Không biết phải nói gì,
+Dialogue: 0,0:18:27.10,0:18:29.50,Default,,0,0,0,,{\an4\pos(101,387)}bạn biết không?
+Dialogue: 0,0:18:32.54,0:18:33.91,Default,,0,0,0,,{\an4\pos(72,387)}Bạn còn nhớ tôi không?
+Dialogue: 0,0:18:37.51,0:18:39.31,Default,,0,0,0,,{\an4\pos(323,387)}Con nhớ bố lắm.
+Dialogue: 0,0:18:43.25,0:18:44.41,Default,,0,0,0,,{\an4\pos(229,384)}Chúng ta có thể ngồi được không?
+Dialogue: 0,0:19:20.99,0:19:22.92,Default,,0,0,0,,{\an4\pos(105,351)}Tôi không hỏi bạn
+Dialogue: 0,0:19:20.99,0:19:22.92,Default,,0,0,0,,{\an4\pos(102,384)}để đến đây.
+Dialogue: 0,0:19:23.36,0:19:24.76,Default,,0,0,0,,{\an4\pos(350,386)}Ờ, tôi muốn thế.
+Dialogue: 0,0:19:27.29,0:19:29.20,Default,,0,0,0,,{\an4\pos(245,351)}Tôi biết mẹ bạn đã nói với bạn
+Dialogue: 0,0:19:27.29,0:19:29.20,Default,,0,0,0,,{\an4\pos(243,387)}rất nhiều điều về tôi.
+Dialogue: 0,0:19:29.33,0:19:31.13,Default,,0,0,0,,{\an4\pos(112,350)}Làm ơn, tôi không muốn
+Dialogue: 0,0:19:29.33,0:19:31.13,Default,,0,0,0,,{\an4\pos(110,384)}để nói về cô ấy.
+Dialogue: 0,0:19:31.67,0:19:34.26,Default,,0,0,0,,{\an4\pos(338,386)}Tôi cũng không.
+Dialogue: 0,0:19:35.14,0:19:36.30,Default,,0,0,0,,{\an4\pos(360,384)}Nhưng chúng ta đang ở đây.
+Dialogue: 0,0:19:38.67,0:19:41.47,Default,,0,0,0,,{\an4\pos(119,351)}Bạn đã mang theo
+Dialogue: 0,0:19:38.67,0:19:41.47,Default,,0,0,0,,{\an4\pos(117,384)}hồ sơ bệnh án hay không?
+Dialogue: 0,0:20:08.84,0:20:10.00,Default,,0,0,0,,{\an4\pos(435,384)}Nhưng...
+Dialogue: 0,0:20:12.17,0:20:13.14,Default,,0,0,0,,{\an4\pos(412,96)}Bạn có thấy ở đây không?
+Dialogue: 0,0:20:13.44,0:20:15.41,Default,,0,0,0,,{\an4\pos(310,96)}"Mẹ báo cáo rằng
+Dialogue: 0,0:20:13.44,0:20:15.41,Default,,0,0,0,,{\an4\pos(310,132)}đứa trẻ thức dậy trong tình trạng nghẹn thở
+Dialogue: 0,0:20:15.54,0:20:16.51,Default,,0,0,0,,{\an4\pos(290,96)}"nhiều lần trong đêm."
+Dialogue: 0,0:20:17.28,0:20:18.25,Default,,0,0,0,,{\an4\pos(167,384)}Ừ.
+Dialogue: 0,0:20:20.72,0:20:21.98,Default,,0,0,0,,{\an4\pos(320,93)}Sau đó là cái này.
+Dialogue: 0,0:20:25.69,0:20:28.38,Default,,0,0,0,,{\an4\pos(116,351)}"Theo mẹ,
+Dialogue: 0,0:20:25.69,0:20:28.38,Default,,0,0,0,,{\an4\pos(117,387)}bệnh nhân bị co giật
+Dialogue: 0,0:20:28.52,0:20:30.32,Default,,0,0,0,,{\an4\pos(98,384)}"sáu lần một tuần."
+Dialogue: 0,0:20:33.56,0:20:34.59,Default,,0,0,0,,{\an4\pos(349,384)}Và hãy nhìn vào đây.
+Dialogue: 0,0:20:36.06,0:20:39.76,Default,,0,0,0,,{\an4\pos(157,351)}"Mẹ nói đứa trẻ đã được điều trị
+Dialogue: 0,0:20:36.06,0:20:39.76,Default,,0,0,0,,{\an4\pos(156,387)}bị bệnh bạch cầu ở tuổi lên ba."
+Dialogue: 0,0:20:42.24,0:20:43.83,Default,,0,0,0,,{\an4\pos(209,387)}Gypsy, chuyện đó không bao giờ xảy ra.
+Dialogue: 0,0:20:46.31,0:20:48.11,Default,,0,0,0,,{\an4\pos(335,387)}Tất cả đều như vậy.
+Dialogue: 0,0:20:49.94,0:20:51.74,Default,,0,0,0,,{\an4\pos(251,387)}Cô ấy luôn nói thay cho bạn.
+Dialogue: 0,0:20:57.82,0:21:00.79,Default,,0,0,0,,{\an4\pos(164,351)}Cô ấy luôn chỉ nói với tôi
+Dialogue: 0,0:20:57.82,0:21:00.79,Default,,0,0,0,,{\an4\pos(163,387)}để cô ấy nói hết mọi chuyện.
+Dialogue: 0,0:21:02.62,0:21:04.68,Default,,0,0,0,,{\an4\pos(250,350)}Đó là toàn bộ chiến thuật của cô ấy,
+Dialogue: 0,0:21:02.62,0:21:04.68,Default,,0,0,0,,{\an4\pos(250,387)}bạn biết không?
+Dialogue: 0,0:21:05.83,0:21:07.80,Default,,0,0,0,,{\an4\pos(275,351)}Đó là cách cô ấy tạo ra bạn
+Dialogue: 0,0:21:05.83,0:21:07.80,Default,,0,0,0,,{\an4\pos(276,387)}một tù nhân.
+Dialogue: 0,0:21:10.63,0:21:12.43,Default,,0,0,0,,{\an4\pos(125,384)}Nhưng ít nhất cô ấy đã ở đó.
+Dialogue: 0,0:21:14.64,0:21:16.19,Default,,0,0,0,,{\an4\pos(132,384)}Cô ấy thực sự yêu tôi.
+Dialogue: 0,0:21:18.34,0:21:19.31,Default,,0,0,0,,{\an4\pos(227,384)}Bạn...
+Dialogue: 0,0:21:20.14,0:21:21.20,Default,,0,0,0,,{\an4\pos(142,384)}bên trái.
+Dialogue: 0,0:21:21.34,0:21:22.37,Default,,0,0,0,,{\an4\pos(373,387)}Người Digan...
+Dialogue: 0,0:21:24.04,0:21:27.11,Default,,0,0,0,,{\an4\pos(191,348)}Tôi 17 tuổi
+Dialogue: 0,0:21:24.04,0:21:27.11,Default,,0,0,0,,{\an4\pos(188,387)}khi tôi kết hôn với mẹ bạn.
+Dialogue: 0,0:21:28.48,0:21:31.04,Default,,0,0,0,,{\an4\pos(240,351)}Trẻ hơn bảy tuổi
+Dialogue: 0,0:21:28.48,0:21:31.04,Default,,0,0,0,,{\an4\pos(240,387)}so với hiện tại.
+Dialogue: 0,0:21:33.02,0:21:34.61,Default,,0,0,0,,{\an4\pos(285,384)}Và cô ấy lớn tuổi hơn nhiều.
+Dialogue: 0,0:21:35.26,0:21:37.23,Default,,0,0,0,,{\an4\pos(194,350)}Cô ấy đang ngồi ở ghế lái,
+Dialogue: 0,0:21:35.26,0:21:37.23,Default,,0,0,0,,{\an4\pos(193,387)}bạn biết không?
+Dialogue: 0,0:21:38.16,0:21:39.32,Default,,0,0,0,,{\an4\pos(478,384)}Tôi còn là một đứa trẻ.
+Dialogue: 0,0:21:39.83,0:21:42.19,Default,,0,0,0,,{\an4\pos(117,348)}Tôi không muốn nghe
+Dialogue: 0,0:21:39.83,0:21:42.19,Default,,0,0,0,,{\an4\pos(114,389)}lời bào chữa của bạn.
+Dialogue: 0,0:21:44.20,0:21:45.29,Default,,0,0,0,,{\an4\pos(115,387)}Tôi biết rằng bạn đã rời đi,
+Dialogue: 0,0:21:45.40,0:21:47.49,Default,,0,0,0,,{\an4\pos(123,351)}và tôi biết rằng bạn
+Dialogue: 0,0:21:45.40,0:21:47.49,Default,,0,0,0,,{\an4\pos(123,384)}không yêu cô ấy hay tôi.
+Dialogue: 0,0:21:47.60,0:21:48.80,Default,,0,0,0,,{\an4\pos(234,387)}Điều đó hoàn toàn không đúng.
+Dialogue: 0,0:21:49.20,0:21:50.40,Default,,0,0,0,,{\an5\pos(369,96)}Anh thực sự yêu em.
+Dialogue: 0,0:21:50.54,0:21:52.67,Default,,0,0,0,,{\an4\pos(228,387)}Anh yêu em, em biết không?
+Dialogue: 0,0:21:52.77,0:21:53.97,Default,,0,0,0,,{\an4\pos(324,384)}Nhưng tôi...
+Dialogue: 0,0:21:54.91,0:21:57.50,Default,,0,0,0,,{\an5\pos(369,129)}Tôi không biết phải làm thế nào.
+Dialogue: 0,0:21:58.85,0:22:00.82,Default,,0,0,0,,{\an4\pos(340,351)}Dễ dàng hơn khi chỉ
+Dialogue: 0,0:21:58.85,0:22:00.82,Default,,0,0,0,,{\an4\pos(339,387)}hãy để cô ấy có bạn.
+Dialogue: 0,0:22:00.92,0:22:03.38,Default,,0,0,0,,{\an4\pos(120,96)}Trong suốt cuộc đời tôi?
+Dialogue: 0,0:22:06.49,0:22:08.08,Default,,0,0,0,,{\an4\pos(337,384)}Tôi đã cố gắng đến thăm.
+Dialogue: 0,0:22:08.99,0:22:11.08,Default,,0,0,0,,{\an4\pos(122,351)}Vậy thì bạn không được
+Dialogue: 0,0:22:08.99,0:22:11.08,Default,,0,0,0,,{\an4\pos(124,387)}đã cố gắng đủ rồi.
+Dialogue: 0,0:22:11.19,0:22:12.79,Default,,0,0,0,,{\an4\pos(297,348)}Cô ấy nói
+Dialogue: 0,0:22:11.19,0:22:12.79,Default,,0,0,0,,{\an4\pos(296,387)}bạn không thể xử lý được.
+Dialogue: 0,0:22:14.43,0:22:17.26,Default,,0,0,0,,{\an4\pos(303,348)}Và rồi cô ấy chuyển động.
+Dialogue: 0,0:22:14.43,0:22:17.26,Default,,0,0,0,,{\an4\pos(304,387)}Tiếp tục di chuyển.
+Dialogue: 0,0:22:17.36,0:22:18.83,Default,,0,0,0,,{\an4\pos(215,351)}Th-- Luôn luôn có
+Dialogue: 0,0:22:17.36,0:22:18.83,Default,,0,0,0,,{\an4\pos(216,386)}một số lý do.
+Dialogue: 0,0:22:18.97,0:22:21.16,Default,,0,0,0,,{\an4\pos(129,351)}Tôi nghĩ bạn nên đi ngay bây giờ.
+Dialogue: 0,0:22:18.97,0:22:21.16,Default,,0,0,0,,{\an4\pos(126,387)}Cảm ơn vì đã cung cấp hồ sơ.
+Dialogue: 0,0:22:21.30,0:22:24.14,Default,,0,0,0,,{\an4\pos(119,351)}Đó là tất cả những gì tôi cần từ anh.
+Dialogue: 0,0:22:21.30,0:22:24.14,Default,,0,0,0,,{\an4\pos(120,387)}Bạn có thể-- Bạn có thể đi được không?
+Dialogue: 0,0:22:24.27,0:22:26.26,Default,,0,0,0,,{\an4\pos(390,351)}Mỗi tháng,
+Dialogue: 0,0:22:24.27,0:22:26.26,Default,,0,0,0,,{\an4\pos(391,384)}Tôi đã gửi séc.
+Dialogue: 0,0:22:26.37,0:22:28.34,Default,,0,0,0,,{\an4\pos(282,351)}Mỗi tháng, ngay cả khi
+Dialogue: 0,0:22:26.37,0:22:28.34,Default,,0,0,0,,{\an4\pos(280,387)}chúng tôi đang cố gắng hết sức để có được nó.
+Dialogue: 0,0:22:28.48,0:22:29.67,Default,,0,0,0,,{\an4\pos(406,320)}Tôi phải vay mượn.
+Dialogue: 0,0:22:28.48,0:22:29.67,Default,,0,0,0,,{\an4\pos(89,387)}Tôi có thể đi được chưa?
+Dialogue: 0,0:22:29.81,0:22:31.34,Default,,0,0,0,,{\an4\pos(494,384)}Khoan đã! Khoan đã.
+Dialogue: 0,0:22:31.48,0:22:32.84,Default,,0,0,0,,{\an4\pos(499,386)}Khoan, khoan đã.
+Dialogue: 0,0:22:32.98,0:22:34.14,Default,,0,0,0,,{\an4\pos(413,384)}Chỉ một giây thôi.
+Dialogue: 0,0:22:35.45,0:22:36.42,Default,,0,0,0,,{\an4\pos(529,387)}Được chứ?
+Dialogue: 0,0:22:38.35,0:22:40.45,Default,,0,0,0,,{\an4\pos(389,387)}Gypsy, làm ơn.
+Dialogue: 0,0:22:43.82,0:22:45.19,Default,,0,0,0,,{\an4\pos(213,387)}Tôi phải cho bạn xem một thứ.
+Dialogue: 0,0:22:52.70,0:22:54.67,Default,,0,0,0,,{\an4\pos(150,351)}Đây là một vài ngày
+Dialogue: 0,0:22:52.70,0:22:54.67,Default,,0,0,0,,{\an4\pos(151,387)}sau khi bạn được sinh ra.
+Dialogue: 0,0:22:55.80,0:22:57.97,Default,,0,0,0,,{\an4\pos(348,351)}Tôi chưa bao giờ giữ
+Dialogue: 0,0:22:55.80,0:22:57.97,Default,,0,0,0,,{\an4\pos(347,387)}một đứa bé trước đó.
+Dialogue: 0,0:23:01.31,0:23:02.83,Default,,0,0,0,,{\an4\pos(222,351)}Đây là bạn
+Dialogue: 0,0:23:01.31,0:23:02.83,Default,,0,0,0,,{\an4\pos(222,387)}khi bạn ba tuổi.
+Dialogue: 0,0:23:03.64,0:23:05.24,Default,,0,0,0,,{\an4\pos(249,351)}Tôi đang cố gắng
+Dialogue: 0,0:23:03.64,0:23:05.24,Default,,0,0,0,,{\an4\pos(246,387)}dạy bạn một bài hát.
+Dialogue: 0,0:23:10.05,0:23:12.02,Default,,0,0,0,,{\an4\pos(199,351)}Đây là bạn và tôi
+Dialogue: 0,0:23:10.05,0:23:12.02,Default,,0,0,0,,{\an4\pos(200,387)}tại Thế vận hội dành cho người khuyết tật.
+Dialogue: 0,0:23:13.32,0:23:14.38,Default,,0,0,0,,{\an4\pos(245,387)}Bạn tám tuổi rồi.
+Dialogue: 0,0:23:15.26,0:23:16.92,Default,,0,0,0,,{\an4\pos(374,96)}Tôi--Tôi rất tự hào
+Dialogue: 0,0:23:15.26,0:23:16.92,Default,,0,0,0,,{\an4\pos(372,132)}của bạn ngày hôm đó.
+Dialogue: 0,0:23:17.06,0:23:20.19,Default,,0,0,0,,{\an4\pos(101,312)}Không phải như thế
+Dialogue: 0,0:23:17.06,0:23:20.19,Default,,0,0,0,,{\an4\pos(104,348)}Tôi nhớ điều đó.
+Dialogue: 0,0:23:17.06,0:23:20.19,Default,,0,0,0,,{\an4\pos(101,384)}Bạn không có ở đó.
+Dialogue: 0,0:23:20.29,0:23:21.76,Default,,0,0,0,,{\an4\pos(454,320)}Tôi đã.
+Dialogue: 0,0:23:20.29,0:23:21.76,Default,,0,0,0,,{\an4\pos(117,387)}Không, anh không phải.
+Dialogue: 0,0:23:21.90,0:23:23.73,Default,,0,0,0,,{\an4\pos(98,351)}Mẹ bảo bạn đi,
+Dialogue: 0,0:23:21.90,0:23:23.73,Default,,0,0,0,,{\an4\pos(96,387)}và bạn đã nói không.
+Dialogue: 0,0:23:23.83,0:23:24.80,Default,,0,0,0,,{\an4\pos(438,93)}Đó là--
+Dialogue: 0,0:23:26.30,0:23:27.46,Default,,0,0,0,,{\an4\pos(366,384)}Điều đó không đúng.
+Dialogue: 0,0:23:27.60,0:23:29.19,Default,,0,0,0,,{\an4\pos(378,384)}Tôi... Tôi đã tới.
+Dialogue: 0,0:23:30.97,0:23:32.94,Default,,0,0,0,,{\an4\pos(364,351)}Tôi đã đưa cho bạn lá cờ này
+Dialogue: 0,0:23:30.97,0:23:32.94,Default,,0,0,0,,{\an4\pos(361,387)}bạn đang giữ.
+Dialogue: 0,0:23:43.42,0:23:44.98,Default,,0,0,0,,{\an4\pos(109,387)}Tôi nhớ lá cờ.
+Dialogue: 0,0:23:46.59,0:23:47.75,Default,,0,0,0,,{\an4\pos(353,387)}Tôi nghĩ là bạn sẽ làm vậy.
+Dialogue: 0,0:23:49.62,0:23:51.39,Default,,0,0,0,,{\an4\pos(327,351)}Bạn đã giữ nó trong nhiều tuần
+Dialogue: 0,0:23:49.62,0:23:51.39,Default,,0,0,0,,{\an4\pos(327,384)}cho đến khi nó hỏng.
+Dialogue: 0,0:23:54.76,0:23:58.22,Default,,0,0,0,,{\an4\pos(188,351)}Tôi nhớ đã nghĩ
+Dialogue: 0,0:23:54.76,0:23:58.22,Default,,0,0,0,,{\an4\pos(188,387)}Tôi nên lấy cho bạn một cái khác.
+Dialogue: 0,0:24:00.50,0:24:02.23,Default,,0,0,0,,{\an4\pos(270,387)}Nhưng cuối cùng, tôi quên mất.
+Dialogue: 0,0:24:09.21,0:24:11.01,Default,,0,0,0,,{\an4\pos(131,387)}Tôi đoán là tôi cũng quên mất.
+Dialogue: 0,0:24:20.22,0:24:21.59,Default,,0,0,0,,{\an4\pos(349,387)}Ồ, Gypsy, tôi...
+Dialogue: 0,0:24:23.59,0:24:24.75,Default,,0,0,0,,{\an4\pos(328,387)}Tôi rất xin lỗi.
+Dialogue: 0,0:24:26.79,0:24:30.39,Default,,0,0,0,,{\an4\pos(272,351)}Tôi thực sự, thực sự, thực sự, thực sự xin lỗi.
+Dialogue: 0,0:24:30.53,0:24:32.33,Default,,0,0,0,,{\an4\pos(325,351)}Tôi ước gì mình đã có được
+Dialogue: 0,0:24:30.53,0:24:32.33,Default,,0,0,0,,{\an4\pos(322,387)}để biết bạn.
+Dialogue: 0,0:24:43.48,0:24:45.38,Default,,0,0,0,,{\an4\pos(195,347)\i1}Đây là{\i0}
+Dialogue: 0,0:24:43.48,0:24:45.38,Default,,0,0,0,,{\an4\pos(195,386)\i1}một cuộc họp trước khi xét xử{\i0}
+Dialogue: 0,0:24:45.48,0:24:46.54,Default,,0,0,0,,{\an4\pos(264,383)\i1}trong vấn đề{\i0}
+Dialogue: 0,0:24:46.65,0:24:50.08,Default,,0,0,0,,{\an4\pos(186,348)}Tiểu bang Missouri
+Dialogue: 0,0:24:46.65,0:24:50.08,Default,,0,0,0,,{\an4\pos(186,387)}vs. Gypsy Rose Blanchard
+Dialogue: 0,0:24:51.05,0:24:54.89,Default,,0,0,0,,{\an4\pos(196,348)}và Tiểu bang Missouri
+Dialogue: 0,0:24:51.05,0:24:54.89,Default,,0,0,0,,{\an4\pos(195,387)}vs. Nicholas Godejohn.
+Dialogue: 0,0:24:55.62,0:24:58.22,Default,,0,0,0,,{\an4\pos(219,348)}Tôi hiểu lời khuyên
+Dialogue: 0,0:24:55.62,0:24:58.22,Default,,0,0,0,,{\an4\pos(218,384)}có một chuyển động cần thực hiện.
+Dialogue: 0,0:25:00.66,0:25:04.50,Default,,0,0,0,,{\an4\pos(152,350)}Thưa ngài, tôi đã chia sẻ với
+Dialogue: 0,0:25:00.66,0:25:04.50,Default,,0,0,0,,{\an4\pos(152,387)}hồ sơ y tế của công tố viên
+Dialogue: 0,0:25:04.63,0:25:06.60,Default,,0,0,0,,{\an4\pos(191,351)}điều đó cho thấy rằng khách hàng của tôi
+Dialogue: 0,0:25:04.63,0:25:06.60,Default,,0,0,0,,{\an4\pos(191,384)}là nạn nhân
+Dialogue: 0,0:25:06.70,0:25:11.10,Default,,0,0,0,,{\an4\pos(181,351)}bị lạm dụng y tế suốt đời
+Dialogue: 0,0:25:06.70,0:25:11.10,Default,,0,0,0,,{\an4\pos(181,384)}dưới bàn tay của mẹ cô.
+Dialogue: 0,0:25:13.07,0:25:15.54,Default,,0,0,0,,{\an4\pos(205,348)}Dee Dee Blanchard là
+Dialogue: 0,0:25:13.07,0:25:15.54,Default,,0,0,0,,{\an4\pos(203,387)}ép buộc con gái mình
+Dialogue: 0,0:25:15.68,0:25:17.87,Default,,0,0,0,,{\an4\pos(222,351)}ít nhất là từ độ tuổi
+Dialogue: 0,0:25:15.68,0:25:17.87,Default,,0,0,0,,{\an4\pos(222,387)}năm tuổi
+Dialogue: 0,0:25:18.01,0:25:19.71,Default,,0,0,0,,{\an4\pos(206,387)}giả vờ bị bệnh
+Dialogue: 0,0:25:19.85,0:25:22.51,Default,,0,0,0,,{\an4\pos(238,315)}ở thể chất tuyệt vời
+Dialogue: 0,0:25:19.85,0:25:22.51,Default,,0,0,0,,{\an4\pos(238,348)}và chi phí cảm xúc
+Dialogue: 0,0:25:19.85,0:25:22.51,Default,,0,0,0,,{\an4\pos(237,387)}cho khách hàng của tôi.
+Dialogue: 0,0:25:22.65,0:25:25.02,Default,,0,0,0,,{\an4\pos(211,350)}Trên cơ sở đó,
+Dialogue: 0,0:25:22.65,0:25:25.02,Default,,0,0,0,,{\an4\pos(211,387)}Hoa hồng Gypsy Blanchard
+Dialogue: 0,0:25:25.15,0:25:26.98,Default,,0,0,0,,{\an4\pos(204,348)}có tiêu đề
+Dialogue: 0,0:25:25.15,0:25:26.98,Default,,0,0,0,,{\an4\pos(202,384)}để có phiên tòa của cô ấy bị cắt đứt
+Dialogue: 0,0:25:27.09,0:25:28.89,Default,,0,0,0,,{\an4\pos(215,348)}từ đó
+Dialogue: 0,0:25:27.09,0:25:28.89,Default,,0,0,0,,{\an4\pos(216,387)}của Nicholas Godejohn.
+Dialogue: 0,0:25:30.22,0:25:31.82,Default,,0,0,0,,{\an4\pos(237,348)}Các tình huống
+Dialogue: 0,0:25:30.22,0:25:31.82,Default,,0,0,0,,{\an4\pos(238,384)}của tội ác này
+Dialogue: 0,0:25:31.93,0:25:33.29,Default,,0,0,0,,{\an4\pos(242,348)}không giống nhau
+Dialogue: 0,0:25:31.93,0:25:33.29,Default,,0,0,0,,{\an4\pos(242,384)}cho cả hai.
+Dialogue: 0,0:25:33.39,0:25:35.63,Default,,0,0,0,,{\an4\pos(153,351)}Cô ấy là một đứa trẻ bị ngược đãi
+Dialogue: 0,0:25:33.39,0:25:35.63,Default,,0,0,0,,{\an4\pos(154,387)}bị giam cầm và kiểm soát
+Dialogue: 0,0:25:35.73,0:25:37.53,Default,,0,0,0,,{\an4\pos(203,351)}bởi mẹ cô ấy,
+Dialogue: 0,0:25:35.73,0:25:37.53,Default,,0,0,0,,{\an4\pos(201,387)}trong khi ông Godejohn--
+Dialogue: 0,0:25:37.66,0:25:39.63,Default,,0,0,0,,{\an4\pos(153,350)}Ờ, luật sư,
+Dialogue: 0,0:25:37.66,0:25:39.63,Default,,0,0,0,,{\an4\pos(154,387)}trước khi bạn bắt đầu...
+Dialogue: 0,0:25:39.73,0:25:40.70,Default,,0,0,0,,{\an4\pos(313,384)}Được thôi.
+Dialogue: 0,0:25:40.83,0:25:43.46,Default,,0,0,0,,{\an4\pos(170,351)}Để tôi hỏi công tố viên
+Dialogue: 0,0:25:40.83,0:25:43.46,Default,,0,0,0,,{\an4\pos(170,386)}nếu, ừm, anh ấy đồng ý.
+Dialogue: 0,0:25:43.57,0:25:45.97,Default,,0,0,0,,{\an4\pos(321,386)}Vâng, thưa Ngài.
+Dialogue: 0,0:25:46.61,0:25:49.58,Default,,0,0,0,,{\an4\pos(297,350)}Cô Blanchard, ừm,
+Dialogue: 0,0:25:46.61,0:25:49.58,Default,,0,0,0,,{\an4\pos(295,384)}hoàn cảnh khác nhau...
+Dialogue: 0,0:25:50.94,0:25:52.91,Default,,0,0,0,,{\an4\pos(346,351)}đáng kể
+Dialogue: 0,0:25:50.94,0:25:52.91,Default,,0,0,0,,{\an4\pos(345,387)}từ ông Godejohn.
+Dialogue: 0,0:25:54.35,0:25:55.37,Default,,0,0,0,,{\an4\pos(164,387)}Cảm ơn bạn.
+Dialogue: 0,0:25:56.05,0:25:59.92,Default,,0,0,0,,{\an4\pos(173,350)}Động thái của bị đơn
+Dialogue: 0,0:25:56.05,0:25:59.92,Default,,0,0,0,,{\an4\pos(173,387)}đã được cấp trợ cấp thôi việc.
+Dialogue: 0,0:26:01.06,0:26:05.25,Default,,0,0,0,,{\an4\pos(183,351)}Ờ, Gypsy Rose Blanchard
+Dialogue: 0,0:26:01.06,0:26:05.25,Default,,0,0,0,,{\an4\pos(182,387)}và Nicholas Godejohn
+Dialogue: 0,0:26:05.36,0:26:06.66,Default,,0,0,0,,{\an4\pos(176,387)}bây giờ sẽ được thử riêng.
+Dialogue: 0,0:26:06.79,0:26:09.39,Default,,0,0,0,,{\an4\pos(204,351)}Nhưng tôi-- tôi làm điều đó vì Gypsy.
+Dialogue: 0,0:26:06.79,0:26:09.39,Default,,0,0,0,,{\an4\pos(205,387)}Tôi đã làm điều đó để bảo vệ--
+Dialogue: 0,0:26:09.50,0:26:11.66,Default,,0,0,0,,{\an4\pos(222,387)}Được rồi, bình tĩnh nào.
+Dialogue: 0,0:26:11.80,0:26:14.96,Default,,0,0,0,,{\an4\pos(199,351)}Luật sư, anh đã làm chưa?
+Dialogue: 0,0:26:11.80,0:26:14.96,Default,,0,0,0,,{\an4\pos(199,387)}một quyết định chưa
+Dialogue: 0,0:26:15.10,0:26:17.13,Default,,0,0,0,,{\an4\pos(195,351)}về việc bạn có ý định
+Dialogue: 0,0:26:15.10,0:26:17.13,Default,,0,0,0,,{\an4\pos(194,387)}để tìm kiếm án tử hình
+Dialogue: 0,0:26:17.27,0:26:18.97,Default,,0,0,0,,{\an4\pos(191,387)}chống lại bất kỳ bị cáo nào?
+Dialogue: 0,0:26:20.14,0:26:21.16,Default,,0,0,0,,{\an4\pos(279,386)}Chúng tôi chưa làm vậy, thưa Ngài.
+Dialogue: 0,0:26:21.31,0:26:24.77,Default,,0,0,0,,{\an4\pos(254,351)}Chúng tôi vẫn đang xem xét
+Dialogue: 0,0:26:21.31,0:26:24.77,Default,,0,0,0,,{\an4\pos(254,387)}các tài liệu cung cấp cho chúng tôi
+Dialogue: 0,0:26:24.88,0:26:26.97,Default,,0,0,0,,{\an4\pos(165,351)}bởi luật sư
+Dialogue: 0,0:26:24.88,0:26:26.97,Default,,0,0,0,,{\an4\pos(165,387)}đại diện cho cô Blanchard.
+Dialogue: 0,0:26:28.05,0:26:31.11,Default,,0,0,0,,{\an4\pos(154,351)}Chúng ta có thể hoàn thành
+Dialogue: 0,0:26:28.05,0:26:31.11,Default,,0,0,0,,{\an4\pos(154,387)}rằng trong những tuần tới
+Dialogue: 0,0:26:31.22,0:26:33.19,Default,,0,0,0,,{\an4\pos(205,384)}và đưa ra quyết định.
+Dialogue: 0,0:26:34.19,0:26:36.18,Default,,0,0,0,,{\an4\pos(134,348)}Điều đó kết luận
+Dialogue: 0,0:26:34.19,0:26:36.18,Default,,0,0,0,,{\an4\pos(133,384)}vấn đề đang được đề cập.
+Dialogue: 0,0:26:36.32,0:26:38.16,Default,,0,0,0,,{\an4\pos(218,320)}Chúng ta sẽ nghỉ giải lao.
+Dialogue: 0,0:26:56.64,0:26:59.44,Default,,0,0,0,,{\an4\pos(351,351)}Ừm, nhưng điều đó tốt,
+Dialogue: 0,0:26:56.64,0:26:59.44,Default,,0,0,0,,{\an4\pos(349,387)}mặc dù vậy, đúng không?
+Dialogue: 0,0:26:59.91,0:27:01.35,Default,,0,0,0,,{\an4\pos(331,351)}Họ sẽ đọc
+Dialogue: 0,0:26:59.91,0:27:01.35,Default,,0,0,0,,{\an4\pos(333,387)}hồ sơ bệnh án của tôi,
+Dialogue: 0,0:27:01.48,0:27:03.95,Default,,0,0,0,,{\an4\pos(180,351)}và họ sẽ không cho tôi
+Dialogue: 0,0:27:01.48,0:27:03.95,Default,,0,0,0,,{\an4\pos(179,387)}hình phạt tử hình?
+Dialogue: 0,0:27:04.08,0:27:07.21,Default,,0,0,0,,{\an4\pos(111,351)}Ờ, ừm, Gypsy, chúng tôi hy vọng
+Dialogue: 0,0:27:04.08,0:27:07.21,Default,,0,0,0,,{\an4\pos(111,384)}hiện tại là một thỏa thuận.
+Dialogue: 0,0:27:07.32,0:27:08.95,Default,,0,0,0,,{\an4\pos(94,351)}Bạn nhận tội,
+Dialogue: 0,0:27:07.32,0:27:08.95,Default,,0,0,0,,{\an4\pos(94,387)}bạn có thể đi bộ
+Dialogue: 0,0:27:09.09,0:27:10.06,Default,,0,0,0,,{\an4\pos(207,387)}khi bạn vẫn còn trẻ.
+Dialogue: 0,0:27:12.33,0:27:13.79,Default,,0,0,0,,{\an4\pos(107,387)}Có tội? Nhưng tôi không có tội--
+Dialogue: 0,0:27:14.29,0:27:16.42,Default,,0,0,0,,{\an4\pos(130,348)}Nhưng mà-- Tôi là nạn nhân.
+Dialogue: 0,0:27:14.29,0:27:16.42,Default,,0,0,0,,{\an4\pos(128,387)}Đó chính là điều bạn vừa--
+Dialogue: 0,0:27:17.23,0:27:18.70,Default,,0,0,0,,{\an4\pos(137,387)}Đó là những gì bạn nói, phải không?
+Dialogue: 0,0:27:19.57,0:27:20.73,Default,,0,0,0,,{\an4\pos(143,386)\i1}Luật sư của Blanchard{\i0}
+Dialogue: 0,0:27:20.83,0:27:23.24,Default,,0,0,0,,{\an4\pos(196,350)\i1}nói rằng cô ấy không{\i0}
+Dialogue: 0,0:27:20.83,0:27:23.24,Default,,0,0,0,,{\an4\pos(196,383)\i1}một kẻ giết người máu lạnh{\i0}
+Dialogue: 0,0:27:23.34,0:27:24.53,Default,,0,0,0,,{\an4\pos(310,383)\i1}nhưng là nạn nhân{\i0}
+Dialogue: 0,0:27:24.64,0:27:27.77,Default,,0,0,0,,{\an4\pos(195,350)\i1}của vật lý dài hạn{\i0}
+Dialogue: 0,0:27:24.64,0:27:27.77,Default,,0,0,0,,{\an4\pos(195,386)\i1}và lạm dụng tâm lý{\i0}
+Dialogue: 0,0:27:27.91,0:27:29.71,Default,,0,0,0,,{\an4\pos(232,383)\i1}người phải thoát ra.{\i0}
+Dialogue: 0,0:27:29.81,0:27:32.47,Default,,0,0,0,,{\an4\pos(251,350)\i1}Cô ấy nói đó là một trường hợp{\i0}
+Dialogue: 0,0:27:29.81,0:27:32.47,Default,,0,0,0,,{\an4\pos(250,383)\i1}tự vệ.{\i0}
+Dialogue: 0,0:27:33.25,0:27:34.74,Default,,0,0,0,,{\an4\pos(213,350)\i1}Khách hàng của tôi hầu như không bao giờ{\i0}
+Dialogue: 0,0:27:33.25,0:27:34.74,Default,,0,0,0,,{\an4\pos(212,386)\i1}phải nói chuyện.{\i0}
+Dialogue: 0,0:27:34.85,0:27:35.82,Default,,0,0,0,,{\an4\pos(302,383)\i1}Không một lần nào.{\i0}
+Dialogue: 0,0:27:35.95,0:27:38.42,Default,,0,0,0,,{\an4\pos(195,350)\i1}Không có trong bất kỳ y khoa nào{\i0}
+Dialogue: 0,0:27:35.95,0:27:38.42,Default,,0,0,0,,{\an4\pos(195,383)\i1}tệp tôi đã thu thập được.{\i0}
+Dialogue: 0,0:27:38.52,0:27:40.72,Default,,0,0,0,,{\an4\pos(195,347)\i1}Đây là một trường hợp{\i0}
+Dialogue: 0,0:27:38.52,0:27:40.72,Default,,0,0,0,,{\an4\pos(192,386)\i1}của Munchausen theo ủy quyền,{\i0}
+Dialogue: 0,0:27:40.82,0:27:42.29,Default,,0,0,0,,{\an4\pos(210,386)\i1}và Gypsy là nạn nhân--{\i0}
+Dialogue: 0,0:27:47.53,0:27:49.93,Default,,0,0,0,,{\an4\pos(312,350)}Bạn biết đấy, tôi đã nói với cô ấy
+Dialogue: 0,0:27:47.53,0:27:49.93,Default,,0,0,0,,{\an4\pos(313,384)}về trang web đó
+Dialogue: 0,0:27:50.03,0:27:51.23,Default,,0,0,0,,{\an4\pos(335,384)}nơi cô gặp anh.
+Dialogue: 0,0:27:53.47,0:27:56.60,Default,,0,0,0,,{\an4\pos(109,350)}Nhìn này, cô ấy đã nói dối chúng ta.
+Dialogue: 0,0:27:53.47,0:27:56.60,Default,,0,0,0,,{\an4\pos(110,387)}Giận cũng không sao đâu.
+Dialogue: 0,0:27:56.70,0:27:58.80,Default,,0,0,0,,{\an4\pos(220,387)}Không, tôi-- tôi giận chính mình.
+Dialogue: 0,0:27:59.84,0:28:01.07,Default,,0,0,0,,{\an4\pos(269,387)}Đã có rất nhiều lần
+Dialogue: 0,0:28:01.18,0:28:03.34,Default,,0,0,0,,{\an4\pos(394,348)}Tôi-- Tôi cảm thấy như
+Dialogue: 0,0:28:01.18,0:28:03.34,Default,,0,0,0,,{\an4\pos(392,386)}cô ấy đã kể cho tôi nghe nhiều thứ,
+Dialogue: 0,0:28:04.28,0:28:07.25,Default,,0,0,0,,{\an4\pos(304,351)}và tôi chỉ nghĩ
+Dialogue: 0,0:28:04.28,0:28:07.25,Default,,0,0,0,,{\an4\pos(305,386)}tất cả chỉ là trong đầu cô ấy,
+Dialogue: 0,0:28:07.38,0:28:08.75,Default,,0,0,0,,{\an4\pos(366,387)}tất cả đều là chuyện cổ tích.
+Dialogue: 0,0:28:09.95,0:28:12.85,Default,,0,0,0,,{\an4\pos(341,312)}Nhưng toàn bộ thời gian này
+Dialogue: 0,0:28:09.95,0:28:12.85,Default,,0,0,0,,{\an4\pos(341,351)}nó vừa đúng
+Dialogue: 0,0:28:09.95,0:28:12.85,Default,,0,0,0,,{\an4\pos(339,386)}trước mặt chúng tôi, và tôi...
+Dialogue: 0,0:28:12.95,0:28:14.98,Default,,0,0,0,,{\an4\pos(195,387)}Tôi thậm chí còn không nhìn thấy nó.
+Dialogue: 0,0:28:21.63,0:28:23.03,Default,,0,0,0,,{\an4\pos(224,350)}Chúa Kitô,
+Dialogue: 0,0:28:21.63,0:28:23.03,Default,,0,0,0,,{\an4\pos(223,384)}giống như cô ấy nghe thấy chúng ta.
+Dialogue: 0,0:28:26.07,0:28:27.23,Default,,0,0,0,,{\an4\pos(105,387)}Bạn có định nhấc máy không?
+Dialogue: 0,0:29:25.36,0:29:26.62,Default,,0,0,0,,{\an4\pos(322,387)}Tôi đang nghĩ...
+Dialogue: 0,0:29:27.93,0:29:28.90,Default,,0,0,0,,{\an4\pos(125,384)}Ừ?
+Dialogue: 0,0:29:32.37,0:29:34.34,Default,,0,0,0,,{\an4\pos(359,351)}Có lẽ bạn nên
+Dialogue: 0,0:29:32.37,0:29:34.34,Default,,0,0,0,,{\an4\pos(357,387)}đi gặp cô ấy ở đó.
+Dialogue: 0,0:29:36.70,0:29:37.97,Default,,0,0,0,,{\an4\pos(101,387)}Tại sao tôi phải làm thế?
+Dialogue: 0,0:29:39.37,0:29:40.53,Default,,0,0,0,,{\an4\pos(357,387)}Bạn không tò mò sao?
+Dialogue: 0,0:29:41.84,0:29:43.64,Default,,0,0,0,,{\an4\pos(203,386)}Ý tôi là, sau tất cả những lời nói dối đó ư?
+Dialogue: 0,0:29:44.61,0:29:46.51,Default,,0,0,0,,{\an4\pos(229,351)}Bạn không chỉ muốn
+Dialogue: 0,0:29:44.61,0:29:46.51,Default,,0,0,0,,{\an4\pos(227,387)}nhìn thẳng vào mắt cô ấy?
+Dialogue: 0,0:30:40.13,0:30:41.29,Default,,0,0,0,,{\an4\pos(87,387)}Cô ấy sẽ không đến.
+Dialogue: 0,0:30:56.78,0:30:58.88,Default,,0,0,0,,{\an4\pos(370,312)}Tôi không biết.
+Dialogue: 0,0:30:56.78,0:30:58.88,Default,,0,0,0,,{\an4\pos(370,351)}Có lẽ tôi không nên
+Dialogue: 0,0:30:56.78,0:30:58.88,Default,,0,0,0,,{\an4\pos(369,384)}cũng đã đến.
+Dialogue: 0,0:31:00.59,0:31:02.15,Default,,0,0,0,,{\an4\pos(302,351)}Được rồi, tôi vui lắm
+Dialogue: 0,0:31:00.59,0:31:02.15,Default,,0,0,0,,{\an4\pos(301,387)}mà bạn đã làm.
+Dialogue: 0,0:31:04.36,0:31:06.16,Default,,0,0,0,,{\an4\pos(156,387)}Thật vui khi được gặp bạn.
+Dialogue: 0,0:31:14.03,0:31:16.13,Default,,0,0,0,,{\an4\pos(146,348)}Bạn không cần phải
+Dialogue: 0,0:31:14.03,0:31:16.13,Default,,0,0,0,,{\an4\pos(148,384)}lo lắng xung quanh tôi.
+Dialogue: 0,0:31:18.04,0:31:19.63,Default,,0,0,0,,{\an4\pos(116,387)}Vẫn là Gypsy cũ.
+Dialogue: 0,0:31:21.21,0:31:23.07,Default,,0,0,0,,{\an4\pos(383,348)}Tôi không biết ai
+Dialogue: 0,0:31:21.21,0:31:23.07,Default,,0,0,0,,{\an4\pos(380,387)}người Gypsy già.
+Dialogue: 0,0:31:29.58,0:31:31.55,Default,,0,0,0,,{\an4\pos(137,351)}Bạn luôn luôn
+Dialogue: 0,0:31:29.58,0:31:31.55,Default,,0,0,0,,{\an4\pos(138,386)}thật tuyệt vời, Mel.
+Dialogue: 0,0:31:32.89,0:31:34.25,Default,,0,0,0,,{\an4\pos(156,387)}Tôi vẫn luôn nghĩ rằng,
+Dialogue: 0,0:31:34.79,0:31:36.98,Default,,0,0,0,,{\an4\pos(153,351)}"Tôi chỉ ước rằng Mel
+Dialogue: 0,0:31:34.79,0:31:36.98,Default,,0,0,0,,{\an4\pos(153,387)}có thể là mẹ tôi."
+Dialogue: 0,0:31:38.19,0:31:40.25,Default,,0,0,0,,{\an4\pos(165,351)}Và bây giờ có lẽ
+Dialogue: 0,0:31:38.19,0:31:40.25,Default,,0,0,0,,{\an4\pos(164,387)}bạn có thể, vì...
+Dialogue: 0,0:31:41.56,0:31:42.72,Default,,0,0,0,,{\an4\pos(139,384)}Vì tôi cần một cái.
+Dialogue: 0,0:31:45.23,0:31:46.39,Default,,0,0,0,,{\an4\pos(367,387)}Bạn biết khi nào?
+Dialogue: 0,0:31:49.64,0:31:50.70,Default,,0,0,0,,{\an4\pos(367,384)}Biết gì không?
+Dialogue: 0,0:31:52.27,0:31:53.76,Default,,0,0,0,,{\an4\pos(349,387)}Bạn có thể đi bộ.
+Dialogue: 0,0:31:55.64,0:31:57.44,Default,,0,0,0,,{\an4\pos(118,350)}Rằng tất cả chỉ là trò lừa đảo,
+Dialogue: 0,0:31:55.64,0:31:57.44,Default,,0,0,0,,{\an4\pos(118,387)}rằng bạn đã lấy tiền
+Dialogue: 0,0:31:57.58,0:31:59.67,Default,,0,0,0,,{\an4\pos(124,351)}và từ thiện từ mọi người
+Dialogue: 0,0:31:57.58,0:31:59.67,Default,,0,0,0,,{\an4\pos(123,387)}khi bạn không cần nó.
+Dialogue: 0,0:32:01.31,0:32:02.28,Default,,0,0,0,,{\an4\pos(232,384)}Một...
+Dialogue: 0,0:32:04.28,0:32:05.45,Default,,0,0,0,,{\an4\pos(162,384)}Tôi không biết.
+Dialogue: 0,0:32:06.52,0:32:07.49,Default,,0,0,0,,{\an4\pos(201,387)}Tôi chỉ...
+Dialogue: 0,0:32:10.32,0:32:12.29,Default,,0,0,0,,{\an4\pos(361,350)}Ồ, tôi tin cô ấy,
+Dialogue: 0,0:32:10.32,0:32:12.29,Default,,0,0,0,,{\an4\pos(361,387)}bạn biết không?
+Dialogue: 0,0:32:13.16,0:32:14.63,Default,,0,0,0,,{\an4\pos(422,350)}Ý tôi là, cô ấy đã
+Dialogue: 0,0:32:13.16,0:32:14.63,Default,,0,0,0,,{\an4\pos(421,387)}bạn thân của tôi
+Dialogue: 0,0:32:14.73,0:32:17.13,Default,,0,0,0,,{\an4\pos(174,387)}cho đến khi cô ấy...
+Dialogue: 0,0:32:17.86,0:32:19.46,Default,,0,0,0,,{\an4\pos(119,387)}không cho tôi lớn lên.
+Dialogue: 0,0:32:20.50,0:32:21.47,Default,,0,0,0,,{\an4\pos(211,384)}Nhưng...
+Dialogue: 0,0:32:23.57,0:32:25.16,Default,,0,0,0,,{\an4\pos(141,387)}Tôi thực sự luôn yêu cô ấy.
+Dialogue: 0,0:32:26.87,0:32:29.67,Default,,0,0,0,,{\an4\pos(120,315)}Vậy tại sao bạn không chỉ
+Dialogue: 0,0:32:26.87,0:32:29.67,Default,,0,0,0,,{\an4\pos(121,351)}hãy đứng dậy khỏi ghế
+Dialogue: 0,0:32:26.87,0:32:29.67,Default,,0,0,0,,{\an4\pos(121,387)}và bỏ đi?
+Dialogue: 0,0:32:37.55,0:32:39.28,Default,,0,0,0,,{\an4\pos(299,387)}Tại sao bạn lại đến đây?
+Dialogue: 0,0:32:41.35,0:32:44.38,Default,,0,0,0,,{\an4\pos(150,351)}Tôi đoán là để xem
+Dialogue: 0,0:32:41.35,0:32:44.38,Default,,0,0,0,,{\an4\pos(149,387)}nếu tôi vẫn nhận ra bạn.
+Dialogue: 0,0:32:47.73,0:32:48.79,Default,,0,0,0,,{\an4\pos(437,387)}Bạn có nghĩ vậy không?
+Dialogue: 0,0:32:51.20,0:32:52.36,Default,,0,0,0,,{\an4\pos(183,384)}Tôi không biết.
+Dialogue: 0,0:32:54.60,0:32:56.00,Default,,0,0,0,,{\an4\pos(127,384)}Tôi không hiểu nổi.
+Dialogue: 0,0:32:58.37,0:33:01.17,Default,,0,0,0,,{\an4\pos(130,351)}Anh và cô ấy, bao nhiêu năm qua,
+Dialogue: 0,0:32:58.37,0:33:01.17,Default,,0,0,0,,{\an4\pos(131,384)}tất cả những lời nói dối đó.
+Dialogue: 0,0:33:02.38,0:33:04.40,Default,,0,0,0,,{\an4\pos(90,348)}Không có phiên bản nào của nó
+Dialogue: 0,0:33:02.38,0:33:04.40,Default,,0,0,0,,{\an4\pos(90,384)}có vẻ hợp lý với tôi.
+Dialogue: 0,0:33:06.78,0:33:07.80,Default,,0,0,0,,{\an4\pos(466,384)}Ờ thì...
+Dialogue: 0,0:33:10.12,0:33:11.14,Default,,0,0,0,,{\an4\pos(466,384)}Ờ thì...
+Dialogue: 0,0:33:11.85,0:33:15.76,Default,,0,0,0,,{\an4\pos(357,315)}Tôi thực sự tin rằng
+Dialogue: 0,0:33:11.85,0:33:15.76,Default,,0,0,0,,{\an4\pos(355,351)}mọi thứ đều xảy ra
+Dialogue: 0,0:33:11.85,0:33:15.76,Default,,0,0,0,,{\an4\pos(354,384)}vì một lý do nào đó.
+Dialogue: 0,0:33:15.86,0:33:19.66,Default,,0,0,0,,{\an4\pos(109,351)}Không có lý do chết tiệt nào cả
+Dialogue: 0,0:33:15.86,0:33:19.66,Default,,0,0,0,,{\an4\pos(109,387)}điều này đã xảy ra với bạn.
+Dialogue: 0,0:33:23.30,0:33:24.46,Default,,0,0,0,,{\an4\pos(98,384)}Không có lý do gì cả.
+Dialogue: 0,0:33:27.83,0:33:29.23,Default,,0,0,0,,{\an4\pos(89,348)}Đôi khi chúng ta không thể
+Dialogue: 0,0:33:27.83,0:33:29.23,Default,,0,0,0,,{\an4\pos(90,387)}làm cho mọi thứ tốt hơn.
+Dialogue: 0,0:33:29.34,0:33:30.93,Default,,0,0,0,,{\an4\pos(103,351)}Chúng ta chỉ cần sống
+Dialogue: 0,0:33:29.34,0:33:30.93,Default,,0,0,0,,{\an4\pos(103,387)}thông qua chúng.
+Dialogue: 0,0:33:36.94,0:33:38.31,Default,,0,0,0,,{\an4\pos(339,387)}Tôi đoán là đúng.
+Dialogue: 0,0:33:50.29,0:33:52.09,Default,,0,0,0,,{\an4\pos(117,387)}Ta không thể là mẹ của con được, Gypsy.
+Dialogue: 0,0:33:55.83,0:33:57.20,Default,,0,0,0,,{\an4\pos(99,387)}Bây giờ bạn phải tự lo liệu thôi.
+Dialogue: 0,0:34:02.14,0:34:03.57,Default,,0,0,0,,{\an4\pos(105,387)}Bạn có nghe thấy tôi đang nói gì không?
+Dialogue: 0,0:34:05.71,0:34:07.26,Default,,0,0,0,,{\an4\pos(91,351)}Có bất kỳ điều nào trong số này không
+Dialogue: 0,0:34:05.71,0:34:07.26,Default,,0,0,0,,{\an4\pos(91,387)}có hợp lý với bạn không?
+Dialogue: 0,0:34:08.98,0:34:10.03,Default,,0,0,0,,{\an4\pos(431,384)}Ừ.
+Dialogue: 0,0:34:13.91,0:34:15.51,Default,,0,0,0,,{\an4\pos(78,387)}Ngươi là ai, Gypsy?
+Dialogue: 0,0:34:18.22,0:34:19.38,Default,,0,0,0,,{\an4\pos(75,387)}Bạn có biết không?
+Dialogue: 0,0:34:22.99,0:34:25.58,Default,,0,0,0,,{\an4\pos(118,351)}Bạn không phải lúc nào cũng muốn
+Dialogue: 0,0:34:22.99,0:34:25.58,Default,,0,0,0,,{\an4\pos(118,387)}người mà cô ấy đã biến bạn thành.
+Dialogue: 0,0:34:32.40,0:34:34.37,Default,,0,0,0,,{\an4\pos(115,351)}Đôi khi cách duy nhất để thoát ra
+Dialogue: 0,0:34:32.40,0:34:34.37,Default,,0,0,0,,{\an4\pos(116,387)}đã qua.
+Dialogue: 0,0:35:08.54,0:35:09.56,Default,,0,0,0,,{\an4\pos(255,383)\i1}Hừm.{\i0}
+Dialogue: 0,0:35:13.27,0:35:16.33,Default,,0,0,0,,{\an4\pos(333,351)}Bạn đã tra cứu chưa
+Dialogue: 0,0:35:13.27,0:35:16.33,Default,,0,0,0,,{\an4\pos(332,387)}tại sao đêm nay?
+Dialogue: 0,0:35:20.18,0:35:21.15,Default,,0,0,0,,{\an4\pos(513,384)}Ừm.
+Dialogue: 0,0:35:22.72,0:35:24.51,Default,,0,0,0,,{\an4\pos(315,387)}Và bạn đã nhìn thấy gì?
+Dialogue: 0,0:35:29.39,0:35:32.36,Default,,0,0,0,,{\an4\pos(106,348)}Tôi đã nhìn thấy tất cả các ngôi sao
+Dialogue: 0,0:35:29.39,0:35:32.36,Default,,0,0,0,,{\an4\pos(105,387)}treo ở đó.
+Dialogue: 0,0:35:39.97,0:35:42.56,Default,,0,0,0,,{\an4\pos(167,387)}Bạn còn nhớ đêm đó không?
+Dialogue: 0,0:35:47.27,0:35:48.24,Default,,0,0,0,,{\an4\pos(617,384)}Hả.
+Dialogue: 0,0:35:49.71,0:35:52.68,Default,,0,0,0,,{\an4\pos(362,351)}Rêu Tây Ban Nha
+Dialogue: 0,0:35:49.71,0:35:52.68,Default,,0,0,0,,{\an4\pos(364,384)}trong các cái cây...
+Dialogue: 0,0:35:53.81,0:35:55.41,Default,,0,0,0,,{\an4\pos(343,387)}trông giống như ma.
+Dialogue: 0,0:35:57.98,0:35:59.38,Default,,0,0,0,,{\an4\pos(329,384)}Và điều đó làm tôi sợ.
+Dialogue: 0,0:36:00.92,0:36:02.51,Default,,0,0,0,,{\an4\pos(287,387)}Và tôi đã giữ chặt lấy bạn.
+Dialogue: 0,0:36:02.62,0:36:04.09,Default,,0,0,0,,{\an4\pos(544,384)}Ừm.
+Dialogue: 0,0:36:05.46,0:36:07.62,Default,,0,0,0,,{\an4\pos(239,387)}Và tôi đã nói với bạn...
+Dialogue: 0,0:36:09.06,0:36:11.46,Default,,0,0,0,,{\an4\pos(208,384)}"Hãy nhìn những vì sao
+Dialogue: 0,0:36:12.40,0:36:14.37,Default,,0,0,0,,{\an4\pos(183,387)}"và không phải là ma."
+Dialogue: 0,0:36:18.91,0:36:21.50,Default,,0,0,0,,{\an4\pos(226,348)}Bởi vì các ngôi sao
+Dialogue: 0,0:36:18.91,0:36:21.50,Default,,0,0,0,,{\an4\pos(225,387)}là những thiên thần...
+Dialogue: 0,0:36:25.98,0:36:27.35,Default,,0,0,0,,{\an4\pos(250,387)}Và các thiên thần...
+Dialogue: 0,0:36:28.98,0:36:30.35,Default,,0,0,0,,{\an4\pos(358,387)}bảo vệ chúng ta.
+Dialogue: 0,0:36:33.32,0:36:35.38,Default,,0,0,0,,{\an4\pos(195,387)}Còn em là thiên thần của anh.
+Dialogue: 0,0:36:38.53,0:36:40.89,Default,,0,0,0,,{\an4\pos(190,387)}Và bạn bảo vệ tôi,
+Dialogue: 0,0:36:41.70,0:36:43.66,Default,,0,0,0,,{\an4\pos(208,387)}và tôi bảo vệ bạn.
+Dialogue: 0,0:36:51.27,0:36:52.24,Default,,0,0,0,,{\an4\pos(282,384)}Mm.
+Dialogue: 0,0:36:53.77,0:36:55.67,Default,,0,0,0,,{\an4\pos(160,386)}Có chuyện gì thế, hả?
+Dialogue: 0,0:37:04.48,0:37:06.28,Default,,0,0,0,,{\an4\pos(225,387)}Chúc ngủ ngon, Mẹ.
+Dialogue: 0,0:37:12.33,0:37:14.29,Default,,0,0,0,,{\an4\pos(128,387)}Chúc ngủ ngon, em yêu.
+Dialogue: 0,0:37:18.10,0:37:19.26,Default,,0,0,0,,{\an4\pos(227,387)}Chúc ngủ ngon.
+Dialogue: 0,0:37:24.94,0:37:26.10,Default,,0,0,0,,{\an4\pos(345,384)}Ồ.
+Dialogue: 0,0:37:30.54,0:37:31.74,Default,,0,0,0,,{\an4\pos(343,384)}Mm.
+Dialogue: 0,0:37:34.88,0:37:37.68,Default,,0,0,0,,{\an4\pos(278,387)}Đừng làm đau tôi, cô bé.
+Dialogue: 0,0:38:32.61,0:38:33.57,Default,,0,0,0,,{\an4\pos(330,387)}Được.
+Dialogue: 0,0:41:39.46,0:41:42.52,Default,,0,0,0,,{\an4\pos(105,387)}Suỵt...
+Dialogue: 0,0:44:05.67,0:44:06.87,Default,,0,0,0,,{\an4\pos(154,387)}Người Digan?
+Dialogue: 0,0:44:08.31,0:44:09.47,Default,,0,0,0,,{\an4\pos(277,384)}Ai ở đó?
+Dialogue: 0,0:44:25.59,0:44:27.39,Default,,0,0,0,,{\an4\pos(322,387)}Người du mục!
+Dialogue: 0,0:45:19.58,0:45:21.84,Default,,0,0,0,,{\an4\pos(212,387)}Người Digan?
+Dialogue: 0,0:45:21.95,0:45:24.54,Default,,0,0,0,,{\an4\pos(216,387)}Gypsy, hãy cho tôi vào.
+Dialogue: 0,0:45:27.95,0:45:29.42,Default,,0,0,0,,{\an4\pos(106,351)}Bạn có thể
+Dialogue: 0,0:45:27.95,0:45:29.42,Default,,0,0,0,,{\an4\pos(106,387)}cho tôi vào được không?
+Dialogue: 0,0:46:03.29,0:46:04.78,Default,,0,0,0,,{\an4\pos(369,387)}Được rồi, được rồi, được rồi.
+Dialogue: 0,0:46:04.89,0:46:07.69,Default,,0,0,0,,{\an4\pos(285,387)}Được rồi. Được rồi.
+Dialogue: 0,0:46:10.16,0:46:11.19,Default,,0,0,0,,{\an4\pos(435,384)}Một...
+Dialogue: 0,0:46:52.64,0:46:53.70,Default,,0,0,0,,{\an4\pos(594,387)}Được.
+Dialogue: 0,0:47:10.46,0:47:12.43,Default,,0,0,0,,{\an4\pos(441,386)}Ồ, ồ.
+Dialogue: 0,0:47:21.20,0:47:22.26,Default,,0,0,0,,{\an4\pos(410,387)}Xin lỗi.
+Dialogue: 0,0:47:36.08,0:47:37.68,Default,,0,0,0,,{\an4\pos(270,322)}Ối, đau quá.
+Dialogue: 0,0:47:36.08,0:47:37.68,Default,,0,0,0,,{\an4\pos(283,384)}Ồ!
+Dialogue: 0,0:47:50.90,0:47:51.96,Default,,0,0,0,,{\an4\pos(69,131)}Ái! Ái, ái.
+Dialogue: 0,0:47:52.06,0:47:54.23,Default,,0,0,0,,{\an4\pos(237,96)}Xin lỗi. Không sao đâu, không sao đâu,
+Dialogue: 0,0:47:52.06,0:47:54.23,Default,,0,0,0,,{\an5\pos(362,132)}không sao đâu, không sao đâu.
+Dialogue: 0,0:47:54.37,0:47:55.73,Default,,0,0,0,,{\an5\pos(349,96)}Được rồi,
+Dialogue: 0,0:47:54.37,0:47:55.73,Default,,0,0,0,,{\an5\pos(347,132)}không sao cả.
+Dialogue: 0,0:48:28.00,0:48:30.16,Default,,0,0,0,,{\an4\pos(229,350)}Ừm, cái nào
+Dialogue: 0,0:48:28.00,0:48:30.16,Default,,0,0,0,,{\an4\pos(229,387)}phòng của bạn là gì?
+Dialogue: 0,0:48:32.61,0:48:33.57,Default,,0,0,0,,{\an4\pos(466,384)}Cái đó.
+Dialogue: 0,0:48:41.38,0:48:42.44,Default,,0,0,0,,{\an4\pos(262,387)}Ồ, tôi đã che nó lại
+Dialogue: 0,0:48:42.55,0:48:45.14,Default,,0,0,0,,{\an4\pos(288,351)}vì vậy bạn không phải
+Dialogue: 0,0:48:42.55,0:48:45.14,Default,,0,0,0,,{\an4\pos(287,387)}không còn lo lắng về điều đó nữa.
+Dialogue: 0,0:48:57.36,0:48:59.46,Default,,0,0,0,,{\an4\pos(318,387)}Ừm, tôi bắt đầu đóng gói.
+Dialogue: 0,0:49:10.21,0:49:13.58,Default,,0,0,0,,{\an4\pos(182,351)}Tôi rất vui mừng vì bạn
+Dialogue: 0,0:49:10.21,0:49:13.58,Default,,0,0,0,,{\an4\pos(179,387)}dẫn tôi vào một cuộc phiêu lưu!
+Dialogue: 0,0:49:14.41,0:49:17.71,Default,,0,0,0,,{\an4\pos(134,351)}Vâng, bạn là
+Dialogue: 0,0:49:14.41,0:49:17.71,Default,,0,0,0,,{\an4\pos(136,387)}công chúa của tôi, phải không?
+Dialogue: 0,0:49:17.82,0:49:19.08,Default,,0,0,0,,{\an4\pos(321,387)}Và anh là hoàng tử của em.
+Dialogue: 0,0:49:19.22,0:49:20.85,Default,,0,0,0,,{\an4\pos(347,351)}Đó là lý do tại sao bạn đến
+Dialogue: 0,0:49:19.22,0:49:20.85,Default,,0,0,0,,{\an4\pos(347,387)}để cứu tôi, đúng không?
+Dialogue: 0,0:49:20.95,0:49:21.94,Default,,0,0,0,,{\an4\pos(277,387)}Vâng.
+Dialogue: 0,0:49:22.49,0:49:23.68,Default,,0,0,0,,{\an4\pos(351,387)}Tôi biết là anh sẽ làm vậy.
+Dialogue: 0,0:49:52.92,0:49:54.08,Default,,0,0,0,,{\an4\pos(142,384)}Ồ.
+Dialogue: 0,0:49:56.66,0:49:57.62,Default,,0,0,0,,{\an4\pos(130,384)}Một...
+Dialogue: 0,0:50:08.60,0:50:09.97,Default,,0,0,0,,{\an4\pos(234,387)}Một...
+Dialogue: 0,0:50:17.44,0:50:18.41,Default,,0,0,0,,{\an4\pos(411,387)}Được.
+Dialogue: 0,0:50:48.14,0:50:49.30,Default,,0,0,0,,{\an4\pos(168,387)}Bạn đã...
+Dialogue: 0,0:50:51.41,0:50:52.61,Default,,0,0,0,,{\an4\pos(324,387)}Về cơ bản.
+Dialogue: 0,0:51:06.43,0:51:08.29,Default,,0,0,0,,{\an4\pos(332,348)}Chào mừng đến với phần còn lại
+Dialogue: 0,0:51:06.43,0:51:08.29,Default,,0,0,0,,{\an4\pos(333,387)}của cuộc đời bạn.
+Dialogue: 0,0:51:32.08,0:51:34.25,Default,,0,0,0,,{\an4\pos(243,383)\i1}Tôi rất tình cảm{\i0}
+Dialogue: 0,0:51:35.19,0:51:38.99,Default,,0,0,0,,{\an4\pos(193,383)\i1}Vì vậy, tôi đi bộ trong mưa{\i0}
+Dialogue: 0,0:51:41.29,0:51:43.46,Default,,0,0,0,,{\an4\pos(230,386)\i1}Tôi có một số thói quen{\i0}
+Dialogue: 0,0:51:44.00,0:51:47.46,Default,,0,0,0,,{\an4\pos(232,386)\i1}Ngay cả tôi cũng không thể giải thích được{\i0}
+Dialogue: 0,0:51:50.04,0:51:54.44,Default,,0,0,0,,{\an4\pos(179,386)\i1}Tại sao lại cố gắng thay đổi tôi ngay bây giờ?{\i0}
+Dialogue: 0,0:51:58.98,0:52:01.78,Default,,0,0,0,,{\an4\pos(200,386)\i1}Tôi ngồi và mơ mộng{\i0}
+Dialogue: 0,0:52:01.88,0:52:05.75,Default,,0,0,0,,{\an4\pos(169,386)\i1}Tôi có rất nhiều mơ mộng{\i0}
+Dialogue: 0,0:52:08.09,0:52:10.68,Default,,0,0,0,,{\an4\pos(234,386)\i1}Đi chơi cuối tuần{\i0}
+Dialogue: 0,0:52:11.86,0:52:14.83,Default,,0,0,0,,{\an4\pos(186,386)\i1}Để chìa khóa của tôi trong cửa{\i0}
+Dialogue: 0,0:52:17.20,0:52:21.57,Default,,0,0,0,,{\an4\pos(179,386)\i1}Tại sao lại cố gắng thay đổi tôi ngay bây giờ?{\i0}
+Dialogue: 0,0:52:24.87,0:52:27.53,Default,,0,0,0,,{\an4\pos(209,349)\i1}Xin chào, ừm, tôi muốn{\i0}
+Dialogue: 0,0:52:24.87,0:52:27.53,Default,,0,0,0,,{\an4\pos(210,386)\i1}làm ơn gọi taxi.{\i0}
+Dialogue: 0,0:52:28.71,0:52:31.07,Default,,0,0,0,,{\an4\pos(224,348)}Đó là một con phố có tên là
+Dialogue: 0,0:52:28.71,0:52:31.07,Default,,0,0,0,,{\an4\pos(221,387)}Đường West Volunteer.
+Dialogue: 0,0:52:31.71,0:52:32.87,Default,,0,0,0,,{\an4\pos(181,387)}Bạn có biết đó là nơi nào không?
+Dialogue: 0,0:52:33.91,0:52:35.07,Default,,0,0,0,,{\an4\pos(253,387)}Đó là một ngôi nhà màu hồng.
+Dialogue: 0,0:52:35.21,0:52:36.58,Default,,0,0,0,,{\an4\pos(264,384)}Vâng. Ừm.
+Dialogue: 0,0:52:37.75,0:52:39.72,Default,,0,0,0,,{\an4\pos(212,351)}Được rồi, và bao lâu
+Dialogue: 0,0:52:37.75,0:52:39.72,Default,,0,0,0,,{\an4\pos(212,387)}bạn nghĩ là sẽ thế nào?
+Dialogue: 0,0:52:41.62,0:52:42.59,Default,,0,0,0,,{\an4\pos(46,387)}Được.
+Dialogue: 0,0:52:43.92,0:52:45.08,Default,,0,0,0,,{\an4\pos(83,387)}Tuyệt. Cảm ơn bạn.
+Dialogue: 0,0:52:56.90,0:53:02.71,Default,,0,0,0,,{\an4\pos(223,350)\i1}Tại sao tôi không thể{\i0}
+Dialogue: 0,0:52:56.90,0:53:02.71,Default,,0,0,0,,{\an4\pos(220,383)\i1}thông thường hơn?{\i0}
+Dialogue: 0,0:53:02.81,0:53:03.78,Default,,0,0,0,,{\an4\pos(337,384)}Em bé ngoan.
+Dialogue: 0,0:53:03.91,0:53:05.78,Default,,0,0,0,,{\an4\pos(220,386)\i1}Mọi người nói chuyện{\i0}
+Dialogue: 0,0:53:07.18,0:53:08.98,Default,,0,0,0,,{\an4\pos(267,386)\i1}Và họ nhìn chằm chằm{\i0}
+Dialogue: 0,0:53:10.25,0:53:12.05,Default,,0,0,0,,{\an4\pos(322,386)\i1}Vì vậy, tôi thử{\i0}
+Dialogue: 0,0:53:13.75,0:53:15.55,Default,,0,0,0,,{\an4\pos(239,383)\i1}Nhưng điều đó không thể xảy ra...{\i0}
+Dialogue: 0,0:53:16.09,0:53:17.49,Default,,0,0,0,,{\an4\pos(200,387)}Hai người đi tiếp đi.
+Dialogue: 0,0:53:17.59,0:53:18.82,Default,,0,0,0,,{\an4\pos(220,383)\i1}Vì tôi không thể nhìn thấy{\i0}
+Dialogue: 0,0:53:18.92,0:53:19.98,Default,,0,0,0,,{\an4\pos(228,384)}Bạn được tự do.
+Dialogue: 0,0:53:22.83,0:53:26.20,Default,,0,0,0,,{\an4\pos(216,386)\i1}Thế giới nhỏ bé kỳ lạ của tôi{\i0}
+Dialogue: 0,0:53:26.33,0:53:29.70,Default,,0,0,0,,{\an4\pos(214,386)\i1}Cứ đi ngang qua tôi đi{\i0}
+Dialogue: 0,0:53:38.68,0:53:41.20,Default,,0,0,0,,{\an4\pos(221,386)\i1}Vậy hãy để mọi người tự hỏi{\i0}
+Dialogue: 0,0:53:41.95,0:53:45.35,Default,,0,0,0,,{\an4\pos(156,386)\i1}Hãy để họ cười, hãy để họ cau mày{\i0}
+Dialogue: 0,0:53:47.12,0:53:49.59,Default,,0,0,0,,{\an4\pos(232,386)\i1}Bạn biết là tôi yêu bạn{\i0}
+Dialogue: 0,0:53:49.72,0:53:54.09,Default,,0,0,0,,{\an4\pos(177,386)\i1}Cho đến khi mặt trăng lộn ngược{\i0}
+Dialogue: 0,0:53:56.20,0:53:57.99,Default,,0,0,0,,{\an4\pos(229,386)\i1}Bạn không nhớ sao{\i0}
+Dialogue: 0,0:53:59.70,0:54:02.67,Default,,0,0,0,,{\an4\pos(192,386)\i1}Tôi luôn là chú hề của anh sao?{\i0}
+Dialogue: 0,0:54:05.60,0:54:08.16,Default,,0,0,0,,{\an4\pos(212,386)\i1}Tại sao lại cố gắng thay đổi tôi?{\i0}
+Dialogue: 0,0:54:10.54,0:54:14.34,Default,,0,0,0,,{\an4\pos(229,350)\i1}Tại sao bạn muốn{\i0}
+Dialogue: 0,0:54:10.54,0:54:14.34,Default,,0,0,0,,{\an4\pos(227,386)\i1}để thay đổi tôi?{\i0}
+Dialogue: 0,0:54:17.68,0:54:23.09,Default,,0,0,0,,{\an4\pos(246,386)\i1}Tại sao phải cố gắng thay đổi{\i0}
+Dialogue: 0,0:54:23.19,0:54:26.99,Default,,0,0,0,,{\an4\pos(308,383)\i1}Tôi bây giờ à?{\i0}
+Dialogue: 0,0:54:36.20,0:54:38.17,Default,,0,0,0,,{\an4\pos(179,351)}Bạn có chắc chắn bạn vẫn
+Dialogue: 0,0:54:36.20,0:54:38.17,Default,,0,0,0,,{\an4\pos(177,386)}muốn làm điều này không, em yêu?
+Dialogue: 0,0:54:47.71,0:54:48.77,Default,,0,0,0,,{\an4\pos(335,384)}Cô ấy á?
+Dialogue: 0,0:54:49.72,0:54:50.81,Default,,0,0,0,,{\an4\pos(143,387)}Tôi đã sẵn sàng.
+Dialogue: 0,0:57:51.90,0:57:55.86,Default,,0,0,0,,{\an4\pos(243,383)\i1}Cô ấy đến rồi{\i0}
+Dialogue: 0,0:57:56.74,0:57:59.71,Default,,0,0,0,,{\an4\pos(183,386)\i1}Bạn nên cẩn thận bước đi của mình{\i0}
+Dialogue: 0,0:58:01.61,0:58:07.07,Default,,0,0,0,,{\an4\pos(207,350)\i1}Cô ấy sắp tan vỡ{\i0}
+Dialogue: 0,0:58:01.61,0:58:07.07,Default,,0,0,0,,{\an4\pos(205,386)\i1}trái tim bạn thành hai{\i0}
+Dialogue: 0,0:58:07.61,0:58:09.98,Default,,0,0,0,,{\an4\pos(318,383)\i1}Đúng vậy{\i0}
+Dialogue: 0,0:58:11.05,0:58:14.24,Default,,0,0,0,,{\an4\pos(216,383)\i1}Không khó để nhận ra{\i0}
+Dialogue: 0,0:58:14.85,0:58:18.81,Default,,0,0,0,,{\an4\pos(239,347)\i1}Chỉ cần nhìn vào cô ấy{\i0}
+Dialogue: 0,0:58:14.85,0:58:18.81,Default,,0,0,0,,{\an4\pos(239,386)\i1}mắt màu giả{\i0}
+Dialogue: 0,0:58:20.29,0:58:22.69,Default,,0,0,0,,{\an4\pos(245,386)\i1}Cô ấy xây dựng bạn{\i0}
+Dialogue: 0,0:58:22.83,0:58:25.86,Default,,0,0,0,,{\an4\pos(227,386)\i1}Chỉ để hạ bệ bạn{\i0}
+Dialogue: 0,0:58:26.00,0:58:27.36,Default,,0,0,0,,{\an4\pos(279,383)\i1}Thật là một chú hề{\i0}
+Dialogue: 0,0:58:27.50,0:58:30.09,Default,,0,0,0,,{\an4\pos(197,386)\i1}Vì mọi người đều biết{\i0}
+Dialogue: 0,0:58:30.20,0:58:32.17,Default,,0,0,0,,{\an4\pos(223,383)\i1}Cô ấy là một người phụ nữ quyến rũ chết người{\i0}
+Dialogue: 0,0:58:32.30,0:58:34.86,Default,,0,0,0,,{\an4\pos(160,386)\i1}Những điều cô ấy làm để làm hài lòng{\i0}
+Dialogue: 0,0:58:35.01,0:58:36.60,Default,,0,0,0,,{\an4\pos(223,383)\i1}Cô ấy là một người phụ nữ quyến rũ chết người{\i0}
+Dialogue: 0,0:58:36.71,0:58:39.01,Default,,0,0,0,,{\an4\pos(210,386)\i1}Cô ấy chỉ là một cô nàng thích trêu chọc thôi{\i0}
+Dialogue: 0,0:58:39.14,0:58:41.31,Default,,0,0,0,,{\an4\pos(223,383)\i1}Cô ấy là một người phụ nữ quyến rũ chết người{\i0}
+Dialogue: 0,0:58:41.41,0:58:44.21,Default,,0,0,0,,{\an4\pos(211,386)\i1}Hãy xem cách cô ấy bước đi{\i0}
+Dialogue: 0,0:58:46.35,0:58:49.15,Default,,0,0,0,,{\an4\pos(210,386)\i1}Nghe cách cô ấy nói{\i0}
+Dialogue: 0,0:58:52.26,0:58:55.23,Default,,0,0,0,,{\an4\pos(192,383)\i1}Bạn được viết trong cuốn sách của cô ấy{\i0}
+Dialogue: 0,0:58:56.40,0:58:59.80,Default,,0,0,0,,{\an4\pos(248,347)\i1}Bạn là số 37{\i0}
+Dialogue: 0,0:58:56.40,0:58:59.80,Default,,0,0,0,,{\an4\pos(245,383)\i1}Hãy xem{\i0}
+Dialogue: 0,0:59:01.77,0:59:07.23,Default,,0,0,0,,{\an4\pos(230,350)\i1}Cô ấy sẽ mỉm cười{\i0}
+Dialogue: 0,0:59:01.77,0:59:07.23,Default,,0,0,0,,{\an4\pos(230,386)\i1}làm bạn cau mày{\i0}
+Dialogue: 0,0:59:07.67,0:59:09.27,Default,,0,0,0,,{\an4\pos(279,383)\i1}Thật là một chú hề{\i0}
+Dialogue: 0,0:59:11.41,0:59:14.21,Default,,0,0,0,,{\an4\pos(223,95)\i1}Cậu bé{\i0}
+Dialogue: 0,0:59:11.41,0:59:14.21,Default,,0,0,0,,{\an5\pos(370,128)\i1}Cô ấy từ đường phố{\i0}
+Dialogue: 0,0:59:15.18,0:59:18.58,Default,,0,0,0,,{\an5\pos(344,95)\i1}Trước khi bạn bắt đầu{\i0}
+Dialogue: 0,0:59:15.18,0:59:18.58,Default,,0,0,0,,{\an5\pos(371,131)\i1}Bạn đã bị đánh bại rồi{\i0}
+Dialogue: 0,0:59:20.45,0:59:26.05,Default,,0,0,0,,{\an4\pos(207,350)\i1}Cô ấy sẽ chơi bạn{\i0}
+Dialogue: 0,0:59:20.45,0:59:26.05,Default,,0,0,0,,{\an4\pos(206,383)\i1}cho một kẻ ngốc{\i0}
+Dialogue: 0,0:59:26.16,0:59:27.42,Default,,0,0,0,,{\an4\pos(285,385)\i1}Đúng vậy{\i0}
